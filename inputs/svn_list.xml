@@ -1,0 +1,4318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/fa16-cs242/gluo2">
+<entry
+   kind="dir">
+<name>Assignment0</name>
+<commit
+   revision="2984">
+<author>gluo2</author>
+<date>2016-09-02T14:36:40.896715Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.classpath</name>
+<size>371</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.project</name>
+<size>362</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/.settings</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/.settings/org.eclipse.jdt.core.prefs</name>
+<size>629</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/COPYING</name>
+<size>18011</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/LANSimulation.class</name>
+<size>4731</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/Network.class</name>
+<size>5508</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/internals</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Node.class</name>
+<size>4689</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/internals/Packet.class</name>
+<size>717</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/bin/lanSimulation/tests</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</name>
+<size>1198</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/bin/lanSimulation/tests/LANTests.class</name>
+<size>9794</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/doc</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/LANSimulationDocument.pdf</name>
+<size>36375</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/README</name>
+<size>1230</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/RefactoringAssignment.pdf</name>
+<size>139491</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/doc/toDoList</name>
+<size>1772</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/expectedOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/javadoc.xml</name>
+<size>393</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/LANSimulation.java</name>
+<size>6073</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/Network.java</name>
+<size>8467</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/internals</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Node.java</name>
+<size>7590</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/internals/Packet.java</name>
+<size>1828</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment0/HW0/src/lanSimulation/tests</name>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/src/lanSimulation/tests/LANTests.java</name>
+<size>10578</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/HW0/useOutput.txt</name>
+<size>2980</size>
+<commit
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/README.txt</name>
+<size>115</size>
+<commit
+   revision="2983">
+<author>gluo2</author>
+<date>2016-09-02T14:36:26.119908Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment0/parmake.c</name>
+<size>12024</size>
+<commit
+   revision="2984">
+<author>gluo2</author>
+<date>2016-09-02T14:36:40.896715Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0</name>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/Note.txt</name>
+<size>2333</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/chessGame</name>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/chessGame/.idea</name>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/.idea/compiler.xml</name>
+<size>734</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/chessGame/.idea/copyright</name>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/.idea/description.html</name>
+<size>97</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/.idea/encodings.xml</name>
+<size>171</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/.idea/misc.xml</name>
+<size>2428</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/.idea/modules.xml</name>
+<size>265</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/.idea/vcs.xml</name>
+<size>173</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/.idea/workspace.xml</name>
+<size>52708</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/chessGame.iml</name>
+<size>1385</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/chessGame/out</name>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/chessGame/out/production</name>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/chessGame/out/production/chessGame</name>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/Bishop.class</name>
+<size>967</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/BishopTest.class</name>
+<size>2372</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/ChessGame$Move.class</name>
+<size>514</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/ChessGame.class</name>
+<size>5518</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/ChessGameTest.class</name>
+<size>4646</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/Grid.class</name>
+<size>823</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/GridTest.class</name>
+<size>2017</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/King.class</name>
+<size>1377</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/KingTest.class</name>
+<size>2470</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/Knight.class</name>
+<size>1672</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/KnightTest.class</name>
+<size>2504</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/Pawn.class</name>
+<size>1710</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/PawnTest.class</name>
+<size>3308</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/Piece.class</name>
+<size>1378</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/PieceTest.class</name>
+<size>2565</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/Queen.class</name>
+<size>1053</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/QueenTest.class</name>
+<size>2446</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/Rock.class</name>
+<size>958</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/RockTest.class</name>
+<size>2358</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/SlidingPiece.class</name>
+<size>2008</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/out/production/chessGame/SlidingPieceTest.class</name>
+<size>3374</size>
+<commit
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.0/chessGame/src</name>
+<commit
+   revision="3803">
+<author>gluo2</author>
+<date>2016-09-09T16:24:25.797280Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/Bishop.java</name>
+<size>1075</size>
+<commit
+   revision="3778">
+<author>gluo2</author>
+<date>2016-09-09T13:58:21.666968Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/BishopTest.java</name>
+<size>2308</size>
+<commit
+   revision="3778">
+<author>gluo2</author>
+<date>2016-09-09T13:58:21.666968Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/ChessGame.java</name>
+<size>11011</size>
+<commit
+   revision="3803">
+<author>gluo2</author>
+<date>2016-09-09T16:24:25.797280Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/ChessGameTest.java</name>
+<size>7479</size>
+<commit
+   revision="3803">
+<author>gluo2</author>
+<date>2016-09-09T16:24:25.797280Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/Grid.java</name>
+<size>1533</size>
+<commit
+   revision="3803">
+<author>gluo2</author>
+<date>2016-09-09T16:24:25.797280Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/GridTest.java</name>
+<size>2669</size>
+<commit
+   revision="3778">
+<author>gluo2</author>
+<date>2016-09-09T13:58:21.666968Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/King.java</name>
+<size>1925</size>
+<commit
+   revision="3803">
+<author>gluo2</author>
+<date>2016-09-09T16:24:25.797280Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/KingTest.java</name>
+<size>2282</size>
+<commit
+   revision="3755">
+<author>gluo2</author>
+<date>2016-09-09T08:17:30.581594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/Knight.java</name>
+<size>1570</size>
+<commit
+   revision="3755">
+<author>gluo2</author>
+<date>2016-09-09T08:17:30.581594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/KnightTest.java</name>
+<size>2318</size>
+<commit
+   revision="3755">
+<author>gluo2</author>
+<date>2016-09-09T08:17:30.581594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/Pawn.java</name>
+<size>2921</size>
+<commit
+   revision="3755">
+<author>gluo2</author>
+<date>2016-09-09T08:17:30.581594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/PawnTest.java</name>
+<size>4129</size>
+<commit
+   revision="3755">
+<author>gluo2</author>
+<date>2016-09-09T08:17:30.581594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/Piece.java</name>
+<size>3682</size>
+<commit
+   revision="3803">
+<author>gluo2</author>
+<date>2016-09-09T16:24:25.797280Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/PieceTest.java</name>
+<size>2535</size>
+<commit
+   revision="3803">
+<author>gluo2</author>
+<date>2016-09-09T16:24:25.797280Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/Queen.java</name>
+<size>1244</size>
+<commit
+   revision="3778">
+<author>gluo2</author>
+<date>2016-09-09T13:58:21.666968Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/QueenTest.java</name>
+<size>2642</size>
+<commit
+   revision="3778">
+<author>gluo2</author>
+<date>2016-09-09T13:58:21.666968Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/Rock.java</name>
+<size>1218</size>
+<commit
+   revision="3778">
+<author>gluo2</author>
+<date>2016-09-09T13:58:21.666968Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/RockTest.java</name>
+<size>2280</size>
+<commit
+   revision="3778">
+<author>gluo2</author>
+<date>2016-09-09T13:58:21.666968Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/SlidingPiece.java</name>
+<size>4834</size>
+<commit
+   revision="3803">
+<author>gluo2</author>
+<date>2016-09-09T16:24:25.797280Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.0/chessGame/src/SlidingPieceTest.java</name>
+<size>5822</size>
+<commit
+   revision="3778">
+<author>gluo2</author>
+<date>2016-09-09T13:58:21.666968Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Doxyfile</name>
+<size>77276</size>
+<commit
+   revision="4980">
+<author>gluo2</author>
+<date>2016-09-16T16:38:40.149044Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/Note.txt</name>
+<size>2333</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/chessGame</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/chessGame/.idea</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/.idea/compiler.xml</name>
+<size>734</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/chessGame/.idea/copyright</name>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/.idea/description.html</name>
+<size>97</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/.idea/encodings.xml</name>
+<size>171</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/.idea/misc.xml</name>
+<size>2428</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/.idea/modules.xml</name>
+<size>265</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/.idea/vcs.xml</name>
+<size>173</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/.idea/workspace.xml</name>
+<size>62718</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/chessGame.iml</name>
+<size>1385</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/chessGame/out</name>
+<commit
+   revision="4986">
+<author>gluo2</author>
+<date>2016-09-16T16:53:34.680083Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/chessGame/out/production</name>
+<commit
+   revision="4986">
+<author>gluo2</author>
+<date>2016-09-16T16:53:34.680083Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/chessGame/out/production/chessGame</name>
+<commit
+   revision="4986">
+<author>gluo2</author>
+<date>2016-09-16T16:53:34.680083Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/Apprentice.class</name>
+<size>658</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/ApprenticeTest.class</name>
+<size>3353</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/Bishop.class</name>
+<size>1026</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/BishopTest.class</name>
+<size>2547</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/ChessGame$Move.class</name>
+<size>514</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/ChessGame.class</name>
+<size>9104</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/ChessGameTest.class</name>
+<size>7247</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/Grid.class</name>
+<size>823</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/GridTest.class</name>
+<size>2035</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/King.class</name>
+<size>1393</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/KingTest.class</name>
+<size>2488</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/Knight.class</name>
+<size>1698</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/KnightTest.class</name>
+<size>2522</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/Pawn.class</name>
+<size>1741</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/PawnTest.class</name>
+<size>3326</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/Piece.class</name>
+<size>1754</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/PieceTest.class</name>
+<size>2713</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/Queen.class</name>
+<size>1112</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/QueenTest.class</name>
+<size>2621</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/Rock.class</name>
+<size>1017</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/RockTest.class</name>
+<size>2533</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/SlidingPiece.class</name>
+<size>1875</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/SlidingPieceTest.class</name>
+<size>3236</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/VisualBoard.class</name>
+<size>4065</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/Wizard.class</name>
+<size>1267</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/WizardTest.class</name>
+<size>3224</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon</name>
+<commit
+   revision="4986">
+<author>gluo2</author>
+<date>2016-09-16T16:53:34.680083Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/-10.png</name>
+<size>2485</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/-11.png</name>
+<size>2267</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/-12.png</name>
+<size>1260</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/-13.png</name>
+<size>1516</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/-14.png</name>
+<size>725</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/-15.png</name>
+<size>797</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/10.png</name>
+<size>2279</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/11.png</name>
+<size>2637</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/12.png</name>
+<size>1944</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/13.png</name>
+<size>1878</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/14.png</name>
+<size>933</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/out/production/chessGame/icon/15.png</name>
+<size>1294</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/chessGame/src</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/Apprentice.java</name>
+<size>946</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/ApprenticeTest.java</name>
+<size>4534</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/Bishop.java</name>
+<size>1821</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/BishopTest.java</name>
+<size>2541</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/ChessGame.java</name>
+<size>17181</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/ChessGameTest.java</name>
+<size>12816</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/Grid.java</name>
+<size>1642</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/GridTest.java</name>
+<size>2675</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/King.java</name>
+<size>2112</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/KingTest.java</name>
+<size>2288</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/Knight.java</name>
+<size>2526</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/KnightTest.java</name>
+<size>2324</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/Pawn.java</name>
+<size>3826</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/PawnTest.java</name>
+<size>4135</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/Piece.java</name>
+<size>4921</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/PieceTest.java</name>
+<size>2679</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/Queen.java</name>
+<size>1994</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/QueenTest.java</name>
+<size>2873</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/Rock.java</name>
+<size>1939</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/RockTest.java</name>
+<size>2509</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/SlidingPiece.java</name>
+<size>5197</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/SlidingPieceTest.java</name>
+<size>5306</size>
+<commit
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/VisualBoard.java</name>
+<size>4466</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/Wizard.java</name>
+<size>2647</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/WizardTest.java</name>
+<size>4665</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.1/chessGame/src/icon</name>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/-10.png</name>
+<size>2485</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/-11.png</name>
+<size>2267</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/-12.png</name>
+<size>1260</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/-13.png</name>
+<size>1516</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/-14.png</name>
+<size>725</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/-15.png</name>
+<size>797</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/10.png</name>
+<size>2279</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/11.png</name>
+<size>2637</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/12.png</name>
+<size>1944</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/13.png</name>
+<size>1878</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/14.png</name>
+<size>933</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/chessGame/src/icon/15.png</name>
+<size>1294</size>
+<commit
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.1/manualTestPlan.pdf</name>
+<size>294782</size>
+<commit
+   revision="4986">
+<author>gluo2</author>
+<date>2016-09-16T16:53:34.680083Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Doxyfile</name>
+<size>77276</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Manual Test Plan.pdf</name>
+<size>3395542</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/Note.txt</name>
+<size>1264</size>
+<commit
+   revision="5983">
+<author>gluo2</author>
+<date>2016-09-27T04:52:34.380918Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/.idea</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/chessGame.iml</name>
+<size>336</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/compiler.xml</name>
+<size>734</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/compiler.xml___jb_tmp___</name>
+<size>0</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/.idea/copyright</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/copyright/profiles_settings.xml___jb_tmp___</name>
+<size>0</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/description.html</name>
+<size>97</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/encodings.xml</name>
+<size>171</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/misc.xml</name>
+<size>2428</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/misc.xml___jb_tmp___</name>
+<size>0</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/modules.xml</name>
+<size>265</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/modules.xml___jb_tmp___</name>
+<size>0</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/uiDesigner.xml</name>
+<size>8792</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/vcs.xml</name>
+<size>173</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/.idea/workspace.xml</name>
+<size>81058</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/chessGame.iml</name>
+<size>1385</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/out</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/out/production</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/out/production/chessGame</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/Controller$1.class</name>
+<size>3865</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/Controller$2.class</name>
+<size>920</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/Controller$3.class</name>
+<size>920</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/Controller$4.class</name>
+<size>1594</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/Controller$5.class</name>
+<size>755</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/Controller$6.class</name>
+<size>1121</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/Controller$7.class</name>
+<size>934</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/Controller$8.class</name>
+<size>930</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/Controller.class</name>
+<size>5780</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Apprentice.class</name>
+<size>724</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Bishop.class</name>
+<size>1213</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/ChessGame.class</name>
+<size>14411</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Grid.class</name>
+<size>786</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/King.class</name>
+<size>1536</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Knight.class</name>
+<size>1852</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Move.class</name>
+<size>683</size>
+<commit
+   revision="5983">
+<author>gluo2</author>
+<date>2016-09-27T04:52:34.380918Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Pawn.class</name>
+<size>1973</size>
+<commit
+   revision="5983">
+<author>gluo2</author>
+<date>2016-09-27T04:52:34.380918Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Piece.class</name>
+<size>2307</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Queen.class</name>
+<size>1299</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Rock.class</name>
+<size>1204</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/SlidingPiece.class</name>
+<size>2330</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessModel/Wizard.class</name>
+<size>1454</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/ApprenticeTest.class</name>
+<size>3413</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/BishopTest.class</name>
+<size>2590</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/ChessGameTest.class</name>
+<size>11696</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/GridTest.class</name>
+<size>2013</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/KingTest.class</name>
+<size>2526</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/KnightTest.class</name>
+<size>2582</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/PawnTest.class</name>
+<size>3386</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/PieceTest.class</name>
+<size>2940</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/QueenTest.class</name>
+<size>2658</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/RockTest.class</name>
+<size>2576</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/SlidingPieceTest.class</name>
+<size>3295</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessTest/WizardTest.class</name>
+<size>3237</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessView</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessView/GridButton.class</name>
+<size>607</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/chessView/VisualBoard.class</name>
+<size>8974</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon</name>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/-10.png</name>
+<size>2485</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/-11.png</name>
+<size>2267</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/-12.png</name>
+<size>1260</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/-13.png</name>
+<size>1516</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/-14.png</name>
+<size>725</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/-15.png</name>
+<size>797</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/-16.png</name>
+<size>906</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/-17.png</name>
+<size>2323</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/10.png</name>
+<size>2279</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/11.png</name>
+<size>2637</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/12.png</name>
+<size>1944</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/13.png</name>
+<size>1878</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/14.png</name>
+<size>933</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/15.png</name>
+<size>1294</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/16.png</name>
+<size>1476</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/out/production/chessGame/icon/17.png</name>
+<size>2718</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/src</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/Controller.java</name>
+<size>14242</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/src/chessModel</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Apprentice.java</name>
+<size>1002</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Bishop.java</name>
+<size>1925</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/ChessGame.java</name>
+<size>24717</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Grid.java</name>
+<size>1035</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/King.java</name>
+<size>2261</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Knight.java</name>
+<size>2653</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Move.java</name>
+<size>1121</size>
+<commit
+   revision="5983">
+<author>gluo2</author>
+<date>2016-09-27T04:52:34.380918Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Pawn.java</name>
+<size>4075</size>
+<commit
+   revision="5983">
+<author>gluo2</author>
+<date>2016-09-27T04:52:34.380918Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Piece.java</name>
+<size>5386</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Queen.java</name>
+<size>2098</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Rock.java</name>
+<size>2043</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/SlidingPiece.java</name>
+<size>5754</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessModel/Wizard.java</name>
+<size>2826</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/src/chessTest</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/ApprenticeTest.java</name>
+<size>4753</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/BishopTest.java</name>
+<size>2625</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/ChessGameTest.java</name>
+<size>20082</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/GridTest.java</name>
+<size>2634</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/KingTest.java</name>
+<size>2346</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/KnightTest.java</name>
+<size>2421</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/PawnTest.java</name>
+<size>4208</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/PieceTest.java</name>
+<size>3090</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/QueenTest.java</name>
+<size>2937</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/RockTest.java</name>
+<size>2579</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/SlidingPieceTest.java</name>
+<size>5354</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessTest/WizardTest.java</name>
+<size>4688</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/src/chessView</name>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessView/GridButton.java</name>
+<size>501</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/chessView/VisualBoard.java</name>
+<size>12695</size>
+<commit
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment1.2/chessGame/src/icon</name>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/-10.png</name>
+<size>2485</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/-11.png</name>
+<size>2267</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/-12.png</name>
+<size>1260</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/-13.png</name>
+<size>1516</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/-14.png</name>
+<size>725</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/-15.png</name>
+<size>797</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/-16.png</name>
+<size>906</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/-17.png</name>
+<size>2323</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/10.png</name>
+<size>2279</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/11.png</name>
+<size>2637</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/12.png</name>
+<size>1944</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/13.png</name>
+<size>1878</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/14.png</name>
+<size>933</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/15.png</name>
+<size>1294</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/16.png</name>
+<size>1476</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment1.2/chessGame/src/icon/17.png</name>
+<size>2718</size>
+<commit
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/.idea</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/Assignment2.0.iml</name>
+<size>8913</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/misc.xml</name>
+<size>788</size>
+<commit
+   revision="6355">
+<author>gluo2</author>
+<date>2016-09-30T05:37:47.185390Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/modules.xml</name>
+<size>278</size>
+<commit
+   revision="6355">
+<author>gluo2</author>
+<date>2016-09-30T05:37:47.185390Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/vcs.xml</name>
+<size>180</size>
+<commit
+   revision="6355">
+<author>gluo2</author>
+<date>2016-09-30T05:37:47.185390Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/.idea/workspace.xml</name>
+<size>44922</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/CSAirServer.rb</name>
+<size>4212</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Edge.rb</name>
+<size>1747</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Graph.rb</name>
+<size>5010</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Statistic.rb</name>
+<size>4292</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/Vertex.rb</name>
+<size>2648</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.0/coverage</name>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/coverage/.last_run.json</name>
+<size>56</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/coverage/.resultset.json.lock</name>
+<size>0</size>
+<commit
+   revision="6355">
+<author>gluo2</author>
+<date>2016-09-30T05:37:47.185390Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/edge_test.rb</name>
+<size>1056</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/graph_test.rb</name>
+<size>1754</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="6355">
+<author>gluo2</author>
+<date>2016-09-30T05:37:47.185390Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/server_test.rb</name>
+<size>822</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/statistic_test.rb</name>
+<size>1476</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/test_map_data.json</name>
+<size>2210</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.0/vertex_test.rb</name>
+<size>2493</size>
+<commit
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/.idea</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/Assignment2.0.iml</name>
+<size>8960</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/misc.xml</name>
+<size>788</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/modules.xml</name>
+<size>278</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/vcs.xml</name>
+<size>180</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/.idea/workspace.xml</name>
+<size>64719</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/CSAirUserInterface.rb</name>
+<size>15194</size>
+<commit
+   revision="7042">
+<author>gluo2</author>
+<date>2016-10-07T16:38:30.097204Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/City.rb</name>
+<size>924</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/GraphLibrary</name>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/GraphLibrary/Edge.rb</name>
+<size>799</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/GraphLibrary/Graph.rb</name>
+<size>6731</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/GraphLibrary/Vertex.rb</name>
+<size>2274</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/Server.rb</name>
+<size>13234</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/coverage</name>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/coverage/.last_run.json</name>
+<size>56</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/coverage/.resultset.json.lock</name>
+<size>0</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/input</name>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/input/cmi_hub.json</name>
+<size>1104</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/input/map_data.json</name>
+<size>16828</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/input/test_map_data.json</name>
+<size>2210</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/input/test_map_directional.json</name>
+<size>2281</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/note.txt</name>
+<size>923</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/output</name>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/output/test_oout.json</name>
+<size>39224</size>
+<commit
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/output/test_out.json</name>
+<size>2744</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/tests</name>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/city_test.rb</name>
+<size>1373</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment2.1/tests/coverage</name>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/coverage/.last_run.json</name>
+<size>56</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/coverage/.resultset.json.lock</name>
+<size>0</size>
+<commit
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/edge_test.rb</name>
+<size>1055</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/graph_test.rb</name>
+<size>1636</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/server_test.rb</name>
+<size>4727</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment2.1/tests/vertex_test.rb</name>
+<size>1943</size>
+<commit
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/.idea</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/.idea/Assignment3.0.iml</name>
+<size>849</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/.idea/copyright</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/.idea/copyright/profiles_settings.xml</name>
+<size>76</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/.idea/misc.xml</name>
+<size>671</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/.idea/modules.xml</name>
+<size>278</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/.idea/vcs.xml</name>
+<size>180</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/.idea/workspace.xml</name>
+<size>35975</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/PageController.php</name>
+<size>4583</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/README.txt</name>
+<size>385</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/inputs</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/small_list.xml</name>
+<size>6245</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/small_log.xml</name>
+<size>6079</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/svn_list - Copy.xml</name>
+<size>80029</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/svn_list.xml</name>
+<size>80029</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/svn_log - Copy.xml</name>
+<size>65866</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/svn_log.xml</name>
+<size>65866</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/model</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/model/LogObject.php</name>
+<size>467</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/model/Node.php</name>
+<size>490</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/model/Path.php</name>
+<size>258</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/model/ProjectOverview.php</name>
+<size>4635</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/tests</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/tests/ProjectOverviewTest.php</name>
+<size>397</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/view</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/LICENSE.txt</name>
+<size>17128</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/view/css</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/css/font-awesome.min.css</name>
+<size>23082</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/css/skel.css</name>
+<size>5262</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/css/style-large.css</name>
+<size>429</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/css/style-medium.css</name>
+<size>1952</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/css/style-small.css</name>
+<size>1097</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/css/style-xlarge.css</name>
+<size>341</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/css/style-xsmall.css</name>
+<size>968</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/css/style.css</name>
+<size>19610</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/view/fonts</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/fonts/FontAwesome.otf</name>
+<size>85908</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/fonts/fontawesome-webfont.eot</name>
+<size>56006</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/fonts/fontawesome-webfont.svg</name>
+<size>287007</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/fonts/fontawesome-webfont.ttf</name>
+<size>112160</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/fonts/fontawesome-webfont.woff</name>
+<size>65452</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/view/images</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/images/banner.jpg</name>
+<size>286134</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/images/pic01.jpg</name>
+<size>75704</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/images/pic02.jpg</name>
+<size>39879</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/images/pic03.jpg</name>
+<size>79395</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/index.php</name>
+<size>273</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/indexTemplate.html</name>
+<size>1424</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/view/js</name>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/js/html5shiv.js</name>
+<size>2463</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/js/init.js</name>
+<size>2195</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/js/jquery.min.js</name>
+<size>95869</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/js/skel-layers.min.js</name>
+<size>15452</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/js/skel.min.js</name>
+<size>21055</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/projectPage.php</name>
+<size>376</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/view/projectPageTemplete.html</name>
+<size>1452</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+</list>
+</lists>

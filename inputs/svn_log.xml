@@ -1,0 +1,2341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/fonts/FontAwesome.otf</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment3.0/svn_list.xml"
+   copyfrom-rev="7657"
+   action="A">/gluo2/Assignment3.0/inputs/svn_list.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/fonts/fontawesome-webfont.eot</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/model/Path.php</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/css/skel.css</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/css/style-xsmall.css</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment3.0/svn_log.xml"
+   copyfrom-rev="7657"
+   action="A">/gluo2/Assignment3.0/inputs/svn_log.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/.idea/Assignment3.0.iml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/css/style.css</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/inputs/svn_list - Copy.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/fonts/fontawesome-webfont.woff</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/model/LogObject.php</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/css/style-small.css</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/inputs/svn_log - Copy.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/js/jquery.min.js</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment3.0/small_list.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/images/banner.jpg</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/view/fonts</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/PageController.php</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/css/style-medium.css</path>
+<path
+   action="D"
+   kind="file">/gluo2/Assignment3.0/small_log.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/css/style-xlarge.css</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/images/pic01.jpg</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/images/pic02.jpg</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/README.txt</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/images/pic03.jpg</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/view/images</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/.idea</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/indexTemplate.html</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/projectPageTemplete.html</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/css/style-large.css</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/js/skel.min.js</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment3.0/inputs</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/model/ProjectOverview.php</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment3.0/small_list.xml"
+   copyfrom-rev="7657"
+   action="A">/gluo2/Assignment3.0/inputs/small_list.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/js/html5shiv.js</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/tests/ProjectOverviewTest.php</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment3.0/view/js</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/fonts/fontawesome-webfont.ttf</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/fonts/fontawesome-webfont.svg</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment3.0/small_log.xml"
+   copyfrom-rev="7657"
+   action="A">/gluo2/Assignment3.0/inputs/small_log.xml</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment3.0/svn_list.xml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/model</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/view/css</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/tests</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/projectPage.php</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/js/init.js</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment3.0/svn_log.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/index.php</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/LICENSE.txt</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/view</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/model/Node.php</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/js/skel-layers.min.js</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/css/font-awesome.min.css</path>
+</paths>
+<msg>almost done</msg>
+</logentry>
+<logentry
+   revision="7364">
+<author>gluo2</author>
+<date>2016-10-13T03:33:30.977603Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/small_list.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/small_log.xml</path>
+</paths>
+<msg>smaller file</msg>
+</logentry>
+<logentry
+   revision="7345">
+<author>gluo2</author>
+<date>2016-10-13T02:01:54.513651Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/svn_list.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/svn_log.xml</path>
+</paths>
+<msg>files</msg>
+</logentry>
+<logentry
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/modules.xml___jb_tmp___</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.0/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/output/test_oout.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/chessGame.iml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/compiler.xml___jb_tmp___</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/copyright/profiles_settings.xml___jb_tmp___</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/.idea/misc.xml___jb_tmp___</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/VisualBoard.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7042">
+<author>gluo2</author>
+<date>2016-10-07T16:38:30.097204Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/CSAirUserInterface.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/.idea/workspace.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+<paths>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment2.1/Graph.rb"
+   copyfrom-rev="7035"
+   action="A">/gluo2/Assignment2.1/GraphLibrary/Graph.rb</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment2.1/Edge.rb"
+   copyfrom-rev="7035"
+   action="A">/gluo2/Assignment2.1/GraphLibrary/Edge.rb</path>
+<path
+   action="D"
+   kind="file">/gluo2/Assignment2.1/Graph.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/tests/graph_test.rb</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/gluo2/Assignment2.1/Vertex.rb"
+   copyfrom-rev="7035">/gluo2/Assignment2.1/GraphLibrary/Vertex.rb</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment2.1/Edge.rb</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/tests/edge_test.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/Server.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/coverage/.last_run.json</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/tests/server_test.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/City.rb</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/output/test_out.json</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment2.1/Vertex.rb</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/tests/vertex_test.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/CSAirUserInterface.rb</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/GraphLibrary</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/.idea/modules.xml</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/tests/coverage</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment2.1/input</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment2.1/output</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/tests</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/Graph.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/tests/coverage/.resultset.json.lock</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/tests/graph_test.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/Edge.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/Server.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/City.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/tests/coverage/.last_run.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/input/map_data.json</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/output/test_out.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/Vertex.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/tests/vertex_test.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/note.txt</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/.idea/Assignment2.0.iml</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/coverage</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/input/test_map_directional.json</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/coverage/.resultset.json.lock</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/tests/edge_test.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/coverage/.last_run.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/tests/server_test.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/tests/city_test.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/input/test_map_data.json</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/input/cmi_hub.json</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/.idea</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/CSAirUserInterface.rb</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="6400">
+<author>gluo2</author>
+<date>2016-09-30T16:43:27.164202Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.0/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/test_map_data.json</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/gluo2/Assignment2.0/VertexTest.rb"
+   copyfrom-rev="6399">/gluo2/Assignment2.0/vertex_test.rb</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment2.0/VertexTest.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.0/Vertex.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.0/.idea/Assignment2.0.iml</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.0/CSAirServer.rb</path>
+<path
+   copyfrom-path="/gluo2/Assignment2.0/GraphTest.rb"
+   copyfrom-rev="6399"
+   action="A"
+   kind="file">/gluo2/Assignment2.0/graph_test.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.0/Graph.rb</path>
+<path
+   action="D"
+   kind="file">/gluo2/Assignment2.0/GraphTest.rb</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/gluo2/Assignment2.0/EdgeTest.rb"
+   copyfrom-rev="6399">/gluo2/Assignment2.0/edge_test.rb</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment2.0/EdgeTest.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.0/Edge.rb</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment2.0/ServerTest.rb"
+   copyfrom-rev="6399"
+   action="A">/gluo2/Assignment2.0/server_test.rb</path>
+<path
+   action="D"
+   kind="file">/gluo2/Assignment2.0/ServerTest.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.0/coverage/.last_run.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/statistic_test.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/Statistic.rb</path>
+</paths>
+<msg>refactor to MVC</msg>
+</logentry>
+<logentry
+   revision="6355">
+<author>gluo2</author>
+<date>2016-09-30T05:37:47.185390Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/coverage/.last_run.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/ServerTest.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.0/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.0/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.0/map_data.json</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.0/VertexTest.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.0/Vertex.rb</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment2.0/.idea</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/.idea/Assignment2.0.iml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/CSAirServer.rb</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment2.0/coverage</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.0</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.0/coverage/.resultset.json.lock</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/GraphTest.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.0/Graph.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.0/EdgeTest.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.0/Edge.rb</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="5984">
+<author>gluo2</author>
+<date>2016-09-27T05:58:09.024762Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$8.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/src/chessView/VisualBoard.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/ChessGame.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/Controller.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/ChessGame.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/ChessGameTest.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$1.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$2.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$3.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/src/chessTest/ChessGameTest.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessView/VisualBoard.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$4.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$5.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$6.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$7.class</path>
+</paths>
+<msg>Add GUI for promotion</msg>
+</logentry>
+<logentry
+   revision="5983">
+<author>gluo2</author>
+<date>2016-09-27T04:52:34.380918Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$1.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$2.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$3.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessView/VisualBoard.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$4.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$5.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$6.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$7.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$8.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/src/chessView/VisualBoard.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/Note.txt</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/ChessGame.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/Controller.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Pawn.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/ChessGame.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Move.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/src/chessModel/Move.java</path>
+</paths>
+<msg>Fixed bug on undo a promotion move</msg>
+</logentry>
+<logentry
+   revision="5940">
+<author>gluo2</author>
+<date>2016-09-26T03:30:31.694660Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$2.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$4.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessView/VisualBoard.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessTest/ChessGameTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Grid.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$6.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/.idea/uiDesigner.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$8.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessModel/Bishop.java</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/Grid.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/10.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/icon/11.png</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/12.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/ChessGame.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/13.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Wizard.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/icon/14.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/icon/15.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/Apprentice.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/16.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/BishopTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/17.png</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessTest/PieceTest.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/RockTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/SlidingPieceTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/ChessGameTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Bishop.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessModel/Queen.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/PawnTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessTest/SlidingPieceTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessTest/WizardTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/King.class</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessView/GridButton.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/GridTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/ChessGame.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/SlidingPiece.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessTest/BishopTest.java</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.2/chessGame</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Queen.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/-10.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessTest/KingTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/-11.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessTest/ApprenticeTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/-12.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/-13.png</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.2/chessGame/out</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/-14.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$1.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/-15.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/-16.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$3.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessTest/RockTest.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/-17.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$5.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/Controller$7.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/chessGame.iml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.2/chessGame/.idea</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/Knight.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessModel/Piece.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/QueenTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessView/VisualBoard.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/Note.txt</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/King.java</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.2/chessGame/src</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.2/chessGame/src/chessView</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/10.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/.idea/encodings.xml</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.2/chessGame/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessView/GridButton.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/11.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/KnightTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/compiler.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/12.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/Controller.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/13.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessModel/Rock.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/14.png</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessView</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.2/chessGame/src/chessTest</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/15.png</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.2/chessGame/out/production</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/KingTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/16.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/icon/17.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/ApprenticeTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/icon/-10.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/icon/-11.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/Manual Test Plan.pdf</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/-12.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/-13.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessModel/Move.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/-14.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/-15.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/icon/-16.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/icon/-17.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Knight.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Piece.class</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessModel</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Apprentice.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessTest/PawnTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Rock.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/Doxyfile</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/SlidingPiece.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessTest/QueenTest.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/PieceTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessModel/Move.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessModel/Wizard.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessTest/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/src/chessTest/GridTest.java</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.2</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/src/chessModel/Pawn.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/out/production/chessGame/chessTest/WizardTest.class</path>
+</paths>
+<msg>Finished</msg>
+</logentry>
+<logentry
+   revision="4986">
+<author>gluo2</author>
+<date>2016-09-16T16:53:34.680083Z</date>
+<paths>
+<path
+   kind="dir"
+   action="D">/gluo2/Assignment1.1/chessGame/src/chessGame</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/Chessboard480.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/manualTestPlan.pdf</path>
+<path
+   action="D"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/chessBoard.png</path>
+</paths>
+<msg>finish</msg>
+</logentry>
+<logentry
+   revision="4980">
+<author>gluo2</author>
+<date>2016-09-16T16:38:40.149044Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/Doxyfile</path>
+</paths>
+<msg>update</msg>
+</logentry>
+<logentry
+   revision="4979">
+<author>gluo2</author>
+<date>2016-09-16T16:35:14.361017Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Rock.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/ChessGame.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/ApprenticeTest.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Pawn.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/RockTest.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/ChessGame.java</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.1/chessGame/src/icon</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/out/production/chessGame/PieceTest.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Grid.class</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.1/chessGame/src/chessGame</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Piece.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/WizardTest.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/SlidingPiece.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Wizard.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Queen.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/VisualBoard.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/QueenTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/chessBoard.png</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/BishopTest.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Knight.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/10.png</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/out/production/chessGame/King.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/11.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/12.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Apprentice.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/13.png</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/14.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/15.png</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/out/production/chessGame/RockTest.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/King.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/ChessGameTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/icon/-10.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/icon/-11.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/icon/-12.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/Apprentice.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/icon/-13.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/icon/-14.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/-10.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/icon/-15.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/-11.png</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Rock.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/ChessGameTest.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/-12.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/-13.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/-14.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/-15.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/icon/10.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/icon/11.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/icon/12.png</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Piece.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/icon/13.png</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/icon/14.png</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/icon/15.png</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/PieceTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Wizard.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/WizardTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/VisualBoard.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/out/production/chessGame/QueenTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/icon/Chessboard480.png</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Bishop.class</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Queen.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/Note.txt</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/ApprenticeTest.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/ChessGame$Move.class</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/BishopTest.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Knight.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Grid.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="4820">
+<author>gluo2</author>
+<date>2016-09-15T23:01:22.099145Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Queen.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Rock.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/SlidingPiece.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Bishop.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Knight.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Piece.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/King.java</path>
+</paths>
+<msg>finish all the pieces</msg>
+</logentry>
+<logentry
+   revision="4816">
+<author>gluo2</author>
+<date>2016-09-15T22:45:31.264994Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Knight.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/Piece.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/King.java</path>
+</paths>
+<msg>some of the pieces documented</msg>
+</logentry>
+<logentry
+   revision="4807">
+<author>gluo2</author>
+<date>2016-09-15T22:18:58.050820Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Piece.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/workspace.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="4805">
+<author>gluo2</author>
+<date>2016-09-15T22:14:28.524551Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Piece.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/workspace.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="4797">
+<author>gluo2</author>
+<date>2016-09-15T21:34:28.256261Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/QueenTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Queen.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/GridTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Grid.class</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.1/chessGame/src</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.1/chessGame/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/.idea/encodings.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/compiler.xml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.1/chessGame/out/production/chessGame</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/ChessGame.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/ChessGameTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/SlidingPieceTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/ChessGame.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/ChessGameTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/SlidingPiece.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Pawn.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.0/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/PawnTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/KnightTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Knight.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/BishopTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Piece.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/PieceTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/KingTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/King.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/ChessGame$Move.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/BishopTest.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/Knight.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/Piece.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/PieceTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/Grid.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/GridTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/RockTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Rock.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/SlidingPieceTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/SlidingPiece.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/King.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/src/KingTest.java</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.1/chessGame</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.1</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/PawnTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Pawn.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/Rock.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/src/RockTest.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/.idea/description.html</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.1/chessGame/out</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.1/chessGame/out/production/chessGame/Queen.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/out/production/chessGame/QueenTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.1/chessGame/chessGame.iml</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.1/chessGame/.idea</path>
+</paths>
+<msg>Assignment1.1</msg>
+</logentry>
+<logentry
+   revision="3845">
+<author>gluo2</author>
+<date>2016-09-09T18:42:18.842902Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/PawnTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/Pawn.class</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.0/chessGame/out</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/.idea/misc.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/chessGame.iml</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.0/chessGame/.idea</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/Grid.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/GridTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/PieceTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/Piece.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/.idea/encodings.xml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.0/chessGame/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/.idea/description.html</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/.idea/uiDesigner.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/Queen.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/QueenTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/KnightTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/Bishop.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/Knight.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/Note.txt</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/BishopTest.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/King.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/KingTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/.idea/compiler.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/ChessGame$Move.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/.idea/copyright/profiles_settings.xml</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/Rock.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/out/production/chessGame/RockTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/SlidingPiece.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/SlidingPieceTest.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/ChessGame.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/out/production/chessGame/ChessGameTest.class</path>
+</paths>
+<msg>the whole project</msg>
+</logentry>
+<logentry
+   revision="3803">
+<author>gluo2</author>
+<date>2016-09-09T16:24:25.797280Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Grid.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Piece.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.0/chessGame/src/PieceTest.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.0/chessGame/src/King.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.0/chessGame/src/ChessGame.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.0/chessGame/src/ChessGameTest.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/SlidingPiece.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="3778">
+<author>gluo2</author>
+<date>2016-09-09T13:58:21.666968Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Queen.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/QueenTest.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Rock.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/RockTest.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.0/chessGame/src/ChessGame.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/ChessGameTest.java</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.0/chessGame/src/SlidingPiece.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/SlidingPieceTest.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Bishop.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/BishopTest.java</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Grid.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/GridTest.java</path>
+</paths>
+<msg>basic function done</msg>
+</logentry>
+<logentry
+   revision="3755">
+<author>gluo2</author>
+<date>2016-09-09T08:17:30.581594Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.0/chessGame/src</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/Bishop.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Knight.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/KnightTest.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/Grid.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Piece.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/PieceTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/King.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/KingTest.java</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment1.0/chessGame</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment1.0</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/Rock.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/SlidingPiece.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/ChessGame.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.0/chessGame/src/PawnTest.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Pawn.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.0/chessGame/src/Queen.java</path>
+</paths>
+<msg>still working on unit test</msg>
+</logentry>
+<logentry
+   revision="2984">
+<author>gluo2</author>
+<date>2016-09-02T14:36:40.896715Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/gluo2/Assignment0/parmake</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake.c</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="2983">
+<author>gluo2</author>
+<date>2016-09-02T14:36:26.119908Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment0/README.txt</path>
+</paths>
+<msg>only keep the code I coded</msg>
+</logentry>
+<logentry
+   revision="2424">
+<author>gluo2</author>
+<date>2016-09-01T02:44:21.707721Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/.project</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/bin/lanSimulation/Network.class</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/HW0/bin/lanSimulation/tests</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/.classpath</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/expectedOutput.txt</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/HW0</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/HW0/src/lanSimulation/internals</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/HW0/src/lanSimulation</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/doc/toDoList</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/HW0/.settings</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/HW0/bin/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/HW0/src</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/HW0/bin/lanSimulation</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/useOutput.txt</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/doc/README</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/HW0/doc</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/javadoc.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/COPYING</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/HW0/src/lanSimulation/tests</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/HW0/bin</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="dir"
+   action="D">/gluo2/Assignment0/code_smell_and_refactoring</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/src/lanSimulation/Network.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/HW0/bin/lanSimulation/internals/Node.class</path>
+</paths>
+<msg>finished code_smell_and_refactoring</msg>
+</logentry>
+<logentry
+   revision="2423">
+<author>gluo2</author>
+<date>2016-09-01T02:41:24.381926Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/README.txt</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/examples/oldfile</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/rule.h</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/parmake</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/testfile1</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/testfile2</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/parmake.c</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/testfile3</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/testfile4</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/testfile5</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/testfile6</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/queue.c</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/parmake_main.c</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/parmake.h</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/results.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/queue.h</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/Makefile</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/parser.c</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/parmake/examples</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/grade_report.html</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/parser.h</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/rule.c</path>
+</paths>
+<msg>400 lines code</msg>
+</logentry>
+<logentry
+   revision="1933">
+<author>gluo2</author>
+<date>2016-08-31T00:14:50.713905Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin/lanSimulation/Network.class</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation/._Network.java</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin/lanSimulation/tests</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/src/lanSimulation/internals/Packet.java</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation/tests</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation/internals/._Packet.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/doc/README</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._.classpath</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/._HW0</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin/lanSimulation/LANSimulation.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/doc/._toDoList</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/._lanSimulation</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/src/lanSimulation/Network.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/.settings/._org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/src/lanSimulation/tests/LANTests.java</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin/lanSimulation</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation/tests/._LANTests.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin/lanSimulation/tests/LANTests.class</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/useOutput.txt</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/doc/LANSimulationDocument.pdf</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._src</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/code_smell_and_refactoring.iml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/expectedOutput.txt</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin/lanSimulation/internals/Packet.class</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/HW0/doc</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/src/lanSimulation/LANSimulation.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/javadoc.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/COPYING</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/doc/RefactoringAssignment.pdf</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/src/lanSimulation/internals/Node.java</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/.idea/vcs.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._bin</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._.project</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin/lanSimulation/tests/LANTests$PreconditionViolationTestCase.class</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/doc</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/HW0</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._expectedOutput.txt</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/HW0/src/lanSimulation/internals</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/src/lanSimulation</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation/._LANSimulation.java</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation/._internals</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/.settings</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin/lanSimulation/internals/Node.class</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/.idea</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._.settings</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/.project</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin/lanSimulation/internals</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/HW0/src</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/src</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/.idea/copyright</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/.idea/compiler.xml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation/internals</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/HW0/.classpath</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/doc/._LANSimulationDocument.pdf</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._.DS_Store</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/.settings</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/doc/toDoList</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/doc/._README</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/HW0/src/lanSimulation/tests</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/bin</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._doc</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._javadoc.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/HW0/.settings/org.eclipse.jdt.core.prefs</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/._COPYING</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation/._tests</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/doc/._RefactoringAssignment.pdf</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src/lanSimulation/internals/._Node.java</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/code_smell_and_refactoring/__MACOSX/HW0/src</path>
+</paths>
+<msg>first step in part 2</msg>
+</logentry>
+<logentry
+   revision="54">
+<author>root</author>
+<date>2016-08-23T17:56:44.897961Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/gluo2</path>
+</paths>
+<msg>created directory gluo2</msg>
+</logentry>
+</log>

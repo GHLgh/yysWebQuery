@@ -1,0 +1,9 @@
+create database commentdb;
+use commentdb;
+create table comments(userName varchar(30) not null, comment varchar(140) null, projectName varchar(30) not null, commentID int unsigned not null auto_increment primary key);
+create table commentFilter(originalWord varchar(30) not null, replacingWord varchar(30) null, filterID int unsigned not null auto_increment primary key);
+insert into commentFilter values("fuck", "fxxk", null);
+insert into commentFilter values("shit", "sxxt", null);
+insert into commentFilter values("sb", "xx", null);
+insert into commentFilter values("jerk", "jxxk", null);
+insert into commentFilter values("asshole", "axxhole", null);

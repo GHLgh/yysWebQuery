@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="2984">
+<author>gluo2</author>
+<date>2016-09-02T14:36:40.896715Z</date>
+<paths>
+<path
+   action="D"
+   kind="dir">/gluo2/Assignment0/parmake</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake.c</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="2983">
+<author>gluo2</author>
+<date>2016-09-02T14:36:26.119908Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment0/README.txt</path>
+</paths>
+<msg>only keep the code I coded</msg>
+</logentry>
+<logentry
+   revision="2423">
+<author>gluo2</author>
+<date>2016-09-01T02:41:24.381926Z</date>
+<paths>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/results.json</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/queue.h</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/Makefile</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/parser.c</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment0/parmake/examples</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/grade_report.html</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/parser.h</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/rule.c</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/README.txt</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/examples/oldfile</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/rule.h</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0/parmake</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/testfile1</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/testfile2</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/parmake.c</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/testfile3</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/testfile4</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/testfile5</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/testfile6</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/queue.c</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment0/parmake/parmake_main.c</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment0/parmake/parmake.h</path>
+</paths>
+<msg>400 lines code</msg>
+</logentry>
+<logentry
+   revision="1933">
+<author>gluo2</author>
+<date>2016-08-31T00:14:50.713905Z</date>
+<paths>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment0</path>
+</paths>
+<msg>first step in part 2</msg>
+</logentry>
+<logentry
+   revision="54">
+<author>root</author>
+<date>2016-08-23T17:56:44.897961Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/gluo2</path>
+</paths>
+<msg>created directory gluo2</msg>
+</logentry>
+</log>

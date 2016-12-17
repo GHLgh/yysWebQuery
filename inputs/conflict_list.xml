@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lists>
+<list
+   path="https://subversion.ews.illinois.edu/svn/fa16-cs242/gluo2">
+<entry
+   kind="dir">
+<name>Assignment3.0</name>
+<commit
+   revision="7665">
+<author>gluo2</author>
+<date>2016-10-14T15:27:26.886740Z</date>
+</commit>
+</entry>
+<entry
+   kind="dir">
+<name>Assignment3.0/inputs</name>
+<commit
+   revision="7665">
+<author>gluo2</author>
+<date>2016-10-14T15:27:26.886740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/multi_revision_multi_file_list.xml</name>
+<size>671</size>
+<commit
+   revision="7665">
+<author>gluo2</author>
+<date>2016-10-14T15:27:26.886740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/multi_revision_multi_file_log.xml</name>
+<size>2956</size>
+<commit
+   revision="7665">
+<author>gluo2</author>
+<date>2016-10-14T15:27:26.886740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/multi_revision_single_file_list.xml</name>
+<size>483</size>
+<commit
+   revision="7665">
+<author>gluo2</author>
+<date>2016-10-14T15:27:26.886740Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/multi_revision_single_file_log.xml</name>
+<size>1059</size>
+<commit
+   revision="7667">
+<author>gluo2</author>
+<date>2016-10-14T15:35:09.616170Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/small_list.xml</name>
+<size>6245</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/small_log.xml</name>
+<size>6079</size>
+<commit
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/svn_list.xml</name>
+<size>91021</size>
+<commit
+   revision="7660">
+<author>gluo2</author>
+<date>2016-10-14T14:30:06.856581Z</date>
+</commit>
+</entry>
+<entry
+   kind="file">
+<name>Assignment3.0/inputs/svn_log.xml</name>
+<size>71886</size>
+<commit
+   revision="7660">
+<author>gluo2</author>
+<date>2016-10-14T14:30:06.856581Z</date>
+</commit>
+</entry>
+</list>
+</lists>

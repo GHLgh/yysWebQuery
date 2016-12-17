@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="7667">
+<author>gluo2</author>
+<date>2016-10-14T15:35:09.616170Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment3.0/inputs/multi_revision_single_file_log.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7666">
+<author>gluo2</author>
+<date>2016-10-14T15:31:38.604569Z</date>
+<paths>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment3.0/inputs/multi_revision_single_file_log.xml</path>
+</paths>
+<msg>delete_test_case</msg>
+</logentry>
+<logentry
+   revision="7665">
+<author>gluo2</author>
+<date>2016-10-14T15:27:26.886740Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/inputs/multi_revision_multi_file_log.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/inputs/multi_revision_single_file_list.xml</path>
+<path
+   action="D"
+   kind="file">/gluo2/Assignment3.0/inputs/svn_list - Copy.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/inputs/multi_revision_single_file_log.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/inputs/multi_revision_multi_file_list.xml</path>
+<path
+   action="D"
+   kind="file">/gluo2/Assignment3.0/inputs/svn_log - Copy.xml</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7660">
+<author>gluo2</author>
+<date>2016-10-14T14:30:06.856581Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment3.0/inputs/svn_log.xml</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment3.0/inputs/svn_list.xml</path>
+</paths>
+<msg>update log/list</msg>
+</logentry>
+<logentry
+   revision="7658">
+<author>gluo2</author>
+<date>2016-10-14T14:23:01.781594Z</date>
+<paths>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment3.0/view/css</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/js/jquery.min.js</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/projectPage.php</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/index.php</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/css/style-medium.css</path>
+<path
+   action="D"
+   kind="file">/gluo2/Assignment3.0/small_log.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/css/style-xlarge.css</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/LICENSE.txt</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/view</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/images/pic01.jpg</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/model/Node.php</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/images/pic02.jpg</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/images/pic03.jpg</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/js/skel-layers.min.js</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment3.0/view/images</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment3.0/.idea</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/indexTemplate.html</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/projectPageTemplete.html</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/js/skel.min.js</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/fonts/FontAwesome.otf</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/fonts/fontawesome-webfont.eot</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/model/Path.php</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/model/ProjectOverview.php</path>
+<path
+   copyfrom-path="/gluo2/Assignment3.0/small_list.xml"
+   copyfrom-rev="7657"
+   action="A"
+   kind="file">/gluo2/Assignment3.0/inputs/small_list.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/tests/ProjectOverviewTest.php</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/view/js</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/.idea/modules.xml</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/.idea/copyright</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment3.0/svn_log.xml"
+   copyfrom-rev="7657"
+   action="A">/gluo2/Assignment3.0/inputs/svn_log.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/css/style.css</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/inputs/svn_list - Copy.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/css/style-small.css</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment3.0/model</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment3.0/tests</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment3.0/small_list.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/images/banner.jpg</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment3.0/view/fonts</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/js/init.js</path>
+<path
+   action="D"
+   kind="file">/gluo2/Assignment3.0/svn_log.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/PageController.php</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/README.txt</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/css/font-awesome.min.css</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/css/style-large.css</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment3.0/inputs</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/gluo2/Assignment3.0/svn_list.xml"
+   copyfrom-rev="7657">/gluo2/Assignment3.0/inputs/svn_list.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/js/html5shiv.js</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/css/skel.css</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/css/style-xsmall.css</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/fonts/fontawesome-webfont.ttf</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/.idea/Assignment3.0.iml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment3.0/view/fonts/fontawesome-webfont.svg</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment3.0/small_log.xml"
+   copyfrom-rev="7657"
+   action="A">/gluo2/Assignment3.0/inputs/small_log.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/.idea/copyright/profiles_settings.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/view/fonts/fontawesome-webfont.woff</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/model/LogObject.php</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment3.0/svn_list.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment3.0/inputs/svn_log - Copy.xml</path>
+</paths>
+<msg>almost done</msg>
+</logentry>
+</log>

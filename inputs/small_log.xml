@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log>
+<logentry
+   revision="7343">
+<author>gluo2</author>
+<date>2016-10-13T01:55:58.215096Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment1.1/chessGame/.idea/workspace.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/modules.xml___jb_tmp___</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.2/chessGame/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.0/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/output/test_oout.json</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/.idea/chessGame.iml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/.idea/compiler.xml___jb_tmp___</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment1.2/chessGame/.idea/copyright/profiles_settings.xml___jb_tmp___</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment1.2/chessGame/.idea/misc.xml___jb_tmp___</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment3.0</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment1.1/chessGame/src/VisualBoard.java</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7042">
+<author>gluo2</author>
+<date>2016-10-07T16:38:30.097204Z</date>
+<paths>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/CSAirUserInterface.rb</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7036">
+<author>gluo2</author>
+<date>2016-10-07T16:03:57.466881Z</date>
+<paths>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment2.1/Graph.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/tests/graph_test.rb</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment2.1/Vertex.rb"
+   copyfrom-rev="7035"
+   action="A">/gluo2/Assignment2.1/GraphLibrary/Vertex.rb</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment2.1/Edge.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/tests/edge_test.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/Server.rb</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/coverage/.last_run.json</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/tests/server_test.rb</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/City.rb</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/.idea/workspace.xml</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/output/test_out.json</path>
+<path
+   kind="file"
+   action="D">/gluo2/Assignment2.1/Vertex.rb</path>
+<path
+   action="M"
+   kind="file">/gluo2/Assignment2.1/tests/vertex_test.rb</path>
+<path
+   kind="file"
+   action="M">/gluo2/Assignment2.1/CSAirUserInterface.rb</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/GraphLibrary</path>
+<path
+   kind="file"
+   copyfrom-path="/gluo2/Assignment2.1/Graph.rb"
+   copyfrom-rev="7035"
+   action="A">/gluo2/Assignment2.1/GraphLibrary/Graph.rb</path>
+<path
+   action="A"
+   kind="file"
+   copyfrom-path="/gluo2/Assignment2.1/Edge.rb"
+   copyfrom-rev="7035">/gluo2/Assignment2.1/GraphLibrary/Edge.rb</path>
+</paths>
+<msg></msg>
+</logentry>
+<logentry
+   revision="7010">
+<author>gluo2</author>
+<date>2016-10-07T07:43:04.548086Z</date>
+<paths>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/coverage/.resultset.json.lock</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/tests/edge_test.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/coverage/.last_run.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/tests/server_test.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/.idea/misc.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/tests/city_test.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/input/test_map_data.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/input/cmi_hub.json</path>
+<path
+   action="A"
+   kind="dir">/gluo2/Assignment2.1/.idea</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/CSAirUserInterface.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/.idea/modules.xml</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/tests/coverage</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/input</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/output</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/tests</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/Graph.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/tests/coverage/.resultset.json.lock</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/tests/graph_test.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/Edge.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/Server.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/.idea/vcs.xml</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/City.rb</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/tests/coverage/.last_run.json</path>
+<path
+   action="A"
+   kind="file">/gluo2/Assignment2.1/input/map_data.json</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/.idea/workspace.xml</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/output/test_out.json</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/Vertex.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/tests/vertex_test.rb</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/note.txt</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/.idea/Assignment2.0.iml</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1/coverage</path>
+<path
+   kind="file"
+   action="A">/gluo2/Assignment2.1/input/test_map_directional.json</path>
+<path
+   kind="dir"
+   action="A">/gluo2/Assignment2.1</path>
+</paths>
+<msg></msg>
+</logentry>
+</log>
