@@ -43,11 +43,11 @@ var resultManager = {
         for(var i = 0; i < 4; i++){
             var targetSection = "#list" + i;
             if(i < resultList.length){
-                $(targetSection).children("li").text(resultList[i].name);
-                $(targetSection).children("div").html(resultList[i].info);
+                $(targetSection).text(resultList[i].name);
+                $(targetSection).next().html(resultList[i].info);
                 $(targetSection).show();
                 
-                $(targetSection).find("a").click(function() {
+                $(targetSection).next().find("a").click(function() {
                     var idInString = $(this).parent().parent().parent().attr("id");
                     var id = parseInt(idInString.charAt(idInString.length - 1));
                     resultList.splice(id,1);
@@ -55,8 +55,17 @@ var resultManager = {
                 })
             }
             else{
+                $(targetSection).next().hide();
                 $(targetSection).hide();
             }
+        }
+    },
+    bindClick: function(){
+        if($(this).next().is(':visible'))
+            $(this).next().slideUp();
+        else{
+            $(this).siblings("div").slideUp();
+            $(this).next().slideDown();
         }
     }
 };
@@ -191,6 +200,11 @@ var i = {
             $("#reset-btn").click(function(){
                 resultManager.clearList();
             })
+            $("#list0").click(resultManager.bindClick);
+            $("#list1").click(resultManager.bindClick);
+            $("#list2").click(resultManager.bindClick);
+            $("#list3").click(resultManager.bindClick);
+
         },
         init: function() {
             var i = this;

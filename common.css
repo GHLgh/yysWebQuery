@@ -151,8 +151,6 @@ html {
 
 @font-face {
     font-family: bottomfont;
-    src: url(https://yys.res.netease.com/m/zt/20161026105048/css/bottomfont_5ff09f0.eot);
-    src: url(https://yys.res.netease.com/m/zt/20161026105048/css/bottomfont_5ff09f0.eot?#iefix) format('embedded-opentype'),url(https://yys.res.netease.com/m/zt/20161026105048/css/bottomfont_3e808cf.woff) format('woff'),url(https://yys.res.netease.com/m/zt/20161026105048/css/bottomfont_d310dd0.ttf) format('truetype'),url(https://yys.res.netease.com/m/zt/20161026105048/css/bottomfont_59157f3.svg#bottomfont) format('svg')
 }
 
 .bottomfont {
@@ -197,7 +195,7 @@ html {
     width: 100%;
     min-height: 100%;
     position: relative;
-    background: url(https://yys.res.netease.com/m/zt/20161026105048/img/bg_f28abe0.jpg) no-repeat;
+    background: url(background.jpg) no-repeat;
     background-size: cover
 }
 
@@ -343,16 +341,6 @@ nav ul li a {
     display: -webkit-box;
     display: -moz-box;
     display: box
-}
-
-.topbar .btn_download {
-    background: url(https://yys.res.netease.com/m/zt/20161026105048/img/btn_download_979a107.png) no-repeat;
-    background-size: 100% 100%
-}
-
-.topbar .btn_popWelfare {
-    background: url(https://yys.res.netease.com/m/zt/20161026105048/img/btn_fuli_89a5a52.png) no-repeat;
-    background-size: 100% 100%
 }
 
 .topbar.download_bar .logo {
@@ -1256,11 +1244,6 @@ nav ul a {
 
 .topbar {
     background: rgba(160,180,195,.5)
-}
-
-.topbar .logo {
-    background: url(https://webinput.nie.netease.com/img/yys/icon.png/128) center center no-repeat;
-    background-size: cover
 }
 
 .topbar a {

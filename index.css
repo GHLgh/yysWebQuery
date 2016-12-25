@@ -235,12 +235,12 @@ body,html {
     height: .77rem;
     background: url(title.png) no-repeat;
     background-size: 100% 100%;
-    margin: .56rem auto .68rem
+    margin: .56rem auto auto
 }
 
 .input-wrap {
-    width: 4.0rem;
-    height: 1.40rem;
+    width: 4.36rem;
+    height: 2.30rem;
     margin: 0 auto;
     margin-bottom: .55rem;
     overflow: hidden
