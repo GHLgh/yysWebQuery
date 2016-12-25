@@ -1,0 +1,421 @@
+/*
+from NetEase
+*/
+
+@charset "gb2312";html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu {
+    margin: 0;
+    padding: 0
+}
+
+html,body,fieldset,img,iframe,abbr {
+    border: 0
+}
+
+li {
+    list-style: none
+}
+
+textarea {
+    overflow: auto;
+    resize: none
+}
+
+a,button {
+    cursor: pointer
+}
+
+h1,h2,h3,h4,h5,h6,em,strong,b {
+    font-weight: 700
+}
+
+a,a:hover {
+    text-decoration: none
+}
+
+body,html {
+    width: 100%;
+    font-weight: 400;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-box-align: center
+}
+
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font-family: "Microsoft YaHei","Helvetica Neue",Arial,HelveticaNeue,Helvetica,"BBAlpha Sans",sans-serif
+}
+
+body {
+    background: #fefefe;
+    opacity: 1;
+    -webkit-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in
+}
+
+a {
+    text-decoration: none
+}
+
+input {
+    -webkit-appearance: none
+}
+
+* {
+    outline: 0;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-focus-ring-color: rgba(0,0,0,0)
+}
+
+p,a,li,span,input {
+    font-size: .28rem
+}
+
+h1 {
+    font-size: .32rem
+}
+
+h2 {
+    font-size: .34rem
+}
+
+h3 {
+    font-size: .3rem
+}
+
+h4 {
+    font-weight: 400;
+    font-size: .3rem
+}
+
+h5 {
+    font-size: .28rem
+}
+
+textarea {
+    font-size: 24px
+}
+
+a {
+    color: #434343
+}
+
+html {
+    font-size: 312.5%
+}
+
+@media screen and (max-width: 359px) and (orientation:portrait) {
+    html {
+        font-size:266.67%
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width:374px) and (orientation:portrait) {
+    html {
+        font-size:300%
+    }
+}
+
+@media screen and (min-width: 384px) and (max-width:399px) and (orientation:portrait) {
+    html {
+        font-size:320%
+    }
+}
+
+@media screen and (min-width: 400px) and (max-width:413px) and (orientation:portrait) {
+    html {
+        font-size:333.33%
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width:431px) and (orientation:portrait) {
+    html {
+        font-size:345%
+    }
+}
+
+@media screen and (min-width: 432px) and (max-width:479px) and (orientation:portrait) {
+    html {
+        font-size:360%
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width:639px) and (orientation:portrait) {
+    html {
+        font-size:400%
+    }
+}
+
+@media screen and (min-width: 640px) and (orientation:portrait) {
+    html {
+        font-size:533.33%
+    }
+}
+
+.i_download {
+    background-image: url(../img/i_download.png)
+}
+
+.attention {
+    width: 100%;
+    height: 1rem;
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    box-orient: horizontal;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    box-align: center
+}
+
+.attention span {
+    text-align: center;
+    -moz-box-flex: 2;
+    -webkit-box-flex: 2;
+    box-flex: 2;
+    display: block;
+    font-size: .28rem
+}
+
+.attention em {
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    display: block;
+    font-size: .24rem;
+    font-style: normal
+}
+
+.attention i {
+    border-radius: .6rem;
+    font-size: .48rem;
+    margin-right: .1rem;
+    width: .6rem;
+    height: .6rem;
+    line-height: .6rem;
+    text-align: center;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: auto 100%
+}
+
+.attention {
+    background: #e9f5ff
+}
+
+.attention span,.attention em {
+    color: #65baff
+}
+
+.attention i {
+    background: #4caefd;
+    color: #fff
+}
+
+.little_head {
+    background: #f2f2f2;
+    color: #4caefd;
+    border-color: #dfdfdf
+}
+
+.little_head .i_title {
+    background: #4caefd
+}
+
+body,html {
+    background: url(background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.title {
+    width: 3.92rem;
+    height: .77rem;
+    background: url(title.png) no-repeat;
+    background-size: 100% 100%;
+    margin: .56rem auto .68rem
+}
+
+.input-wrap {
+    width: 4.0rem;
+    height: 1.40rem;
+    margin: 0 auto;
+    margin-bottom: .55rem;
+    overflow: hidden
+}
+
+.input-box {
+    width: 4.0rem;
+    height: .29rem;
+    border: 1px solid #000;
+    border-radius: .1rem;
+    font-size: .28rem;
+    padding: .24rem 0;
+    padding-left: .3rem;
+    margin: auto auto .10rem
+}
+
+.seek-btn {
+    float: left;
+    height: .77rem;
+    border: 1px solid #000;
+    border-radius: .1rem;
+    width: 1.8rem;
+    background: url(search.png) no-repeat;
+    background-size: 100% 100%
+}
+
+.reset-btn {
+    float: right;
+    height: .77rem;
+    border: 1px solid #000;
+    border-radius: .1rem;
+    width: 1.8rem;
+    background: url(reset.png) no-repeat;
+    background-size: 100% 100%
+}
+
+.offerAreward {
+    width: 6.5rem;
+    min-height: 8.8rem;
+    margin: 0 auto
+}
+
+.OAR-column-wrap {
+    width: 100%;
+    height: .4rem
+}
+
+.OAR-column-wrap a:nth-child(2n-1) {
+    float: left;
+    margin-left: 1.2rem
+}
+
+.OAR-column-wrap a:nth-child(2n) {
+    float: right;
+    margin-right: 1.2rem
+}
+
+.OAR-column {
+    display: inline-block;
+    border-bottom: 1px solid #000
+}
+
+.OAR-resultList {
+    width: 6.5rem;
+    margin: 0 auto
+}
+
+.OAR-resultList ul {
+    width: 100%
+}
+
+.OAR-resultList ul li {
+    width: 100%;
+    height: .9rem;
+    text-align: center;
+    background: url(btn-resultList.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: .9rem;
+    font-size: .3rem;
+    font-weight: bolder;
+    margin: .2rem 0
+}
+
+.OAR-selectedResultList {
+    width: 6.5rem;
+    margin: 0 auto
+}
+
+.OAR-selectedResultList ul {
+    width: 100%
+}
+
+.OAR-selectedResultList ul li {
+    width: 100%;
+    height: .9rem;
+    text-align: center;
+    background: url(btn-resultList.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: .9rem;
+    font-size: .3rem;
+    font-weight: bolder;
+    margin: .2rem 0
+}
+
+.OAR-selectedResult{
+    opacity:1.0;
+    width: 6.5rem;
+    height: .9rem;
+    text-align: center;
+    background: url(btn-resultList.png) no-repeat;
+    background-size: 100% 100%;
+    line-height: .9rem;
+    font-size: .3rem;
+    font-weight: bolder;
+    margin: .2rem auto
+}
+
+.OAR-selectedResultList .OAR-selectedList-title {
+    text-align: center;
+    margin-top: .4rem;
+    margin-bottom: .4rem
+}
+
+.OAR-selectedResultList .OAR-selectedList-title span {
+    font-size: .3rem;
+    font-weight: bolder;
+    padding: .18rem 1.33rem .27rem 1.25rem;
+    background: url(titile_resultDetails.png) no-repeat;
+    background-size: 100% 100%
+}
+
+.OAR-resultDetails {
+    width: 6.5rem;
+    margin: .8rem auto
+}
+
+.OAR-resultDetails .OAR-resultDetails-title {
+    text-align: center;
+    margin-bottom: .8rem
+}
+
+.OAR-resultDetails .OAR-resultDetails-title span {
+    font-size: .3rem;
+    font-weight: bolder;
+    padding: .18rem 1.33rem .27rem 1.25rem;
+    background: url(titile_resultDetails.png) no-repeat;
+    background-size: 100% 100%
+}
+
+.OAR-resultDetails dl {
+    width: 100%;
+    margin-top: .2rem;
+    overflow: hidden
+}
+
+.OAR-resultDetails dl dt {
+    float: left;
+    font-size: .35rem;
+    font-weight: 700
+}
+
+.OAR-resultDetails dl dd {
+    width: 4.7rem;
+    float: left;
+    font-size: .28rem
+}
+
+.OAR-resultDetails dl dd p {
+    line-height: .35rem;
+    margin-top: .1rem
+}
+
+.OAR-resultError {
+    width: 6.5rem;
+    margin: .6rem auto;
+    font-size: .33rem;
+    font-weight: 700
+}

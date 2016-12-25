@@ -1,0 +1,96 @@
+<!-- Code adapted from http://yys.163.com/m/fengyin/ using "inspect" development option in the browser, will take down the code if necessary -->
+
+<!DOCTYPE HTML> 
+<html lang="en"> 
+<head>
+<title>YYS - Quest Query</title>
+<meta charset="utf-8"> 
+<script type="text/javascript" charset="utf-8" src="query.js"></script>
+<script type="text/javascript" charset="utf-8" src="common.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link type="text/css" rel="stylesheet" href="index.css">
+<link type="text/css" rel="stylesheet" href="common.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimal-ui">
+</head>
+
+<body onload="startup();">
+    <div id="main">
+        <div id="content">
+            <!--标题-->
+ 			<div class="title"></div>
+            
+ 			<!--搜索输入框-->
+ 			<div class="input-wrap">
+ 			    <input type="text" class="input-box" placeholder="输入妖怪、线索、关键词" id="input-box">
+ 				<a href="javascript:void(0)" class="seek-btn" id="seek-btn"></a>
+                <a href="javascript:void(0)" class="reset-btn" id="reset-btn"></a>
+ 			</div>
+ 			<!--悬赏内容-->
+ 			<div class="offerAreward">
+                <div id="searchSection">
+ 			        <!--悬赏栏目链接-->
+                    <!--悬赏搜索结果列表-->
+                    <!--shows up when there are multiply results fitting the user input-->
+                    <div id="result" class="OAR-resultList" style="display:none">
+                        <ul>
+                            <li>妖刀姬哥哥</li>
+                            <li>妖刀姬哥哥</li>
+                            <li>妖刀姬哥哥</li>
+                        </ul>
+                    </div>
+                
+                    <!--悬赏搜索结果有误-->
+                    <div class="OAR-resultError" style="display: none;">
+                    </div>
+                    
+                    <!--悬赏搜索结果详情-->
+                    <div id="testID" class="OAR-resultDetails" style="display:none">
+                    </div>
+                </div>
+                
+                <!--shows up when the accurate result is selected-->
+                <div id="selectedResult" class="OAR-selectedResultList" style="display">
+                    <p class="OAR-selectedList-title">
+                        <span>已选妖怪</span>
+                    </p>
+                    
+                    <ul>
+                        <div id="collapseParent">
+                            <div id="list0" class="panel" style="background-color:transparent; margin-bottom: 0px; border: none">
+                                <li data-toggle="collapse" data-parent="#collapseParent" href="#collapse0">example0</li>
+                                <div id="collapse0" class="collapse OAR-resultDetails">
+                                    detail 0
+                                </div>
+                            </div>
+                            
+                            <div id="list1" class="panel" style="background-color:transparent; margin-bottom: 0px; border: none">
+                                <li data-toggle="collapse" data-parent="#collapseParent" href="#collapse1">example1</li>
+                                <div id="collapse1" class="collapse OAR-resultDetails">
+                                    detail 1
+                                </div>
+                            </div>
+                            
+                            <div id="list2" class="panel" style="background-color:transparent; margin-bottom: 0px; border: none">
+                                <li data-toggle="collapse" data-parent="#collapseParent" data-target="#collapse2">example2</li>
+                                <div id="collapse2" class="collapse OAR-resultDetails">
+                                    detail 2
+                                </div>
+                            </div>
+                            
+                            <div id="list3" class="panel" style="background-color:transparent; margin-bottom: 0px; border: none">
+                                <li data-toggle="collapse" data-parent="#collapseParent" data-target="#collapse3">example3</li>
+                                <div id="collapse3" class="collapse OAR-resultDetails">
+                                    detail 3
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    
+</html>
