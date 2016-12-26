@@ -4,13 +4,16 @@
  * 2.1 How to build the graph??
  */
 
-//TODO: add a layer of indirection between search result and input (user have to click on the target to show detail)
-// step 1: change the way it displays the content
-//  1.1 multiple matches, wait for selecting the right one, display detail => ..., ..., add the title and detail as a string in html format to 
-//      resultList
-//  1.2 exact match, display detail => ..., add the title and detail as a string in html format to resultList
-//
-// step 2: use boots trap to perform detail display
+//DONE: add a layer of indirection between search result and input (user have to click on the target to show detail)
+//TODO: implement optimal solution (simple one first)
+// Thoughts: When user enter an input, the application will analyze the json by simply fetching the JSON file (implemented).
+//           So the program can generate a map to the appearence of objects during the analysis
+// step 1: when analyzing, parse the JSON input into a 2-dim array (1st-dim: stage, 2nd-dim: appearence point) that contains
+//         the amount of the target
+// step 2: pass the result to result manager
+// step 3: result manager sums those results out and provides n suggestions (n: the number of user inputs), each suggestion
+//         shows the optimal result that contains the according target
+
 var resultList = [];
 
 var resultManager = {
@@ -169,6 +172,7 @@ var i = {
             s += "<dl><dt>\u4f53\u529b\u6d88\u8017\uff1a</dt><dd>" + i.isEXist(t.sushi) + "</dd></dl>";
             var e = i.markKey(s);
             $("#testID").html(e),
+            
             //#testID should never be shown
             //i.dealingRelation($("#testID")),
             $(".OAR-resultList").hide(),
