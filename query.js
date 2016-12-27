@@ -2,6 +2,9 @@
  * 1. Using the code from http://yys.163.com/m/fengyin/ to analyse user input and retrieve information related to the input
  * 2. Creating a data set based on the retrieved information and computing the optimal path (?) to complete the task (graph maybe??)
  * 2.1 How to build the graph??
+ *
+ * CONVENTION: 1-index for simplicity because the data in JSON is 1-index (level info, ID, ...)
+ *
  */
 
 //DONE: add a layer of indirection between search result and input (user have to click on the target to show detail)
@@ -14,11 +17,77 @@
 // step 3: result manager sums those results out and provides n suggestions (n: the number of user inputs), each suggestion
 //         shows the optimal result that contains the according target
 
-var resultList = [];
+var globalMapInfo = null;
+
+function _initGlobalInfo(listLength){
+    globalMapInfo = new Object();
+    globalMapInfo["targetCheckList"] = [];
+    for(var i = 0; i <= listLength; i++)
+        globalMapInfo["targetCheckList"].push(false);
+    var chFront = "第";
+    var chBack = "章（困难）";
+    var yh = "御魂";
+    var yq = "yqfy";
+    
+    // initialize each chapter
+    for(var i = 1; i <= 18; i++){
+        globalMapInfo[chFront+i+chBack] = [];
+        
+        //padding and boss info (TODO: find possible usage)
+        globalMapInfo[chFront+i+chBack].push(new Object());
+        
+        var maximumSpot = 6;
+        if(i == 1)
+            maximumSpot = 4;
+        else if(i == 2)
+            maximumSpot = 5;
+        
+        for(var j = 1; j <= maximumSpot; j++){
+            globalMapInfo[chFront+i+chBack].push(new Object());
+        }
+    }
+    
+    // initialize each dungeon
+    for(var i = 1; i <= 10; i++){
+        globalMapInfo[yh+i] = new Object();
+    }
+    
+    // initialize each special boss (TODO: initialize without fixed inputs)
+    globalMapInfo["跳跳哥哥"] = new Object();
+    globalMapInfo["椒图"] = new Object();
+    globalMapInfo["骨女"] = new Object();
+    globalMapInfo["海坊主"] = new Object();
+    globalMapInfo["鬼使黑"] = new Object();
+    globalMapInfo["二口女"] = new Object();
+    globalMapInfo["饿鬼"] = new Object();
+    globalMapInfo["金币怪物"] = new Object();    
+    console.log(globalMapInfo);
+}
+
+function _fillGlobalInfo(list){
+    // iterate each element in the list
+    for(var i = 0; i < list.length; i++){
+        var target = list[i];
+        /*var s = "";
+            s += "<dl><dt>\u7ae0\u8282\uff1a</dt><dd>" + i.isEXist(target.chapter1) + i.isEXist(target.chapter2),
+            s += i.isEXist(t.chapter3) + i.isEXist(t.chapter4) + i.isEXist(t.chapter5),
+            s += i.isEXist(t.chapter6) + i.isEXist(t.chapter7) + i.isEXist(t.chapter8) + i.isEXist(t.chapter9) + i.isEXist(t.chapter10) + "</dd></dl>",
+            s += "<dl><dt>\u7ebf\u7d22\uff1a</dt><dd>" + i.isEXist(t.clue) + "</dd></dl>",
+            s += "<dl><dt>\u5fa1\u9b42\uff1a</dt><dd>" + i.isEXist(t.yuhun1) + i.isEXist(t.yuhun2),
+            s += i.isEXist(t.yuhun3) + i.isEXist(t.yuhun4) + "</dd></dl>",
+            s += "<dl><dt>\u5996\u6c14\u5c01\u5370\uff1a</dt><dd>" + i.isEXist(t.yqfy1) + i.isEXist(t.yqfy2),
+            s += i.isEXist(t.yqfy3) + i.isEXist(t.yqfy4) + i.isEXist(t.yqfy5),
+            s += "</dd></dl>",
+            s += "<dl><dt>\u9b3c\u738b\u5c01\u5370\uff1a</dt><dd>" + i.isEXist(t.gwfy1) + i.isEXist(t.gwfy2),
+            s += i.isEXist(t.gwfy3) + i.isEXist(t.gwfy4) + i.isEXist(t.gwfy5),
+            s += i.isEXist(t.gwfy6) + "</dd></dl>";*/
+    }
+}
 
 var resultManager = {
+    resultList: [],
     ifFull: function(){
-        if(resultList.length >= 4){
+        if(resultManager.resultList.length >= 4){
             i.dealingRelation($(".OAR-resultError"));
             $(".OAR-resultError").html("\u6700\u591A\u53EA\u63A5\u53D7\u56DB\u4E2A\u8F93\u5165!");
             return true;
@@ -27,33 +96,33 @@ var resultManager = {
             return false;
     },
     addList: function(nameInput, informationInput){
-        for(var iterator = 0; iterator < resultList.length; iterator++){
-            if(nameInput == resultList[iterator].name){
+        for(var iterator = 0; iterator < resultManager.resultList.length; iterator++){
+            if(nameInput == resultManager.resultList[iterator].name){
                 i.dealingRelation($(".OAR-resultError"));
                 $(".OAR-resultError").html("\u8F93\u5165\u5DF2\u67E5\u8BE2\uff0c\u8bf7\u91cd\u65b0\u8f93\u5165!");
                 return;
             }
         }
         var informationPair = {name:nameInput, info:informationInput};
-        resultList.push(informationPair);
+        resultManager.resultList.push(informationPair);
         resultManager.updateDocumentation();
     },
     clearList: function(){
-        resultList = new Array;  
+        resultManager.resultList = [];  
         resultManager.updateDocumentation();
     },
     updateDocumentation: function(){
         for(var i = 0; i < 4; i++){
             var targetSection = "#list" + i;
-            if(i < resultList.length){
-                $(targetSection).text(resultList[i].name);
-                $(targetSection).next().html(resultList[i].info);
+            if(i < resultManager.resultList.length){
+                $(targetSection).text(resultManager.resultList[i].name);
+                $(targetSection).next().html(resultManager.resultList[i].info);
                 $(targetSection).show();
                 
                 $(targetSection).next().find("a").click(function() {
                     var idInString = $(this).parent().parent().parent().attr("id");
                     var id = parseInt(idInString.charAt(idInString.length - 1));
-                    resultList.splice(id,1);
+                    resultManager.resultList.splice(id,1);
                     resultManager.updateDocumentation();
                 })
             }
@@ -88,7 +157,8 @@ var i = {
                 type: "get",
                 dataType: "json",
                 success: function(s) {
-                    printList(s);
+                    if(globalMapInfo == null)
+                        printList(s); // will be the parser
                     for (var e = 0; e < s.length; e++)
                         if (t == s[e].name)
                             return void i.showDetails(s[e]);
@@ -154,6 +224,7 @@ var i = {
             })
         },
         showDetails: function(t) {
+            var appearenceList = [];
             var s = "";
             s += '<p class="OAR-resultDetails-title"><span>' + t.name +  '|<a href="javascript:void(0)" id="deleteSelection" style="color:red"> [撤销]</a>' + "</span></p>",
             s += "<dl><dt>\u7ae0\u8282\uff1a</dt><dd>" + i.isEXist(t.chapter1) + i.isEXist(t.chapter2),
@@ -216,8 +287,9 @@ var i = {
         }
     };
 
-function printList(s){
-    console.log(s);
+function printList(list){
+    _initGlobalInfo(list.length);
+    _fillGlobalInfo(list);
 }
 
 function startup(){

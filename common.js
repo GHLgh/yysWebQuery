@@ -56,6 +56,9 @@ var GlobalInit = function() {
       , o = function() {
         window.addEventListener("onorientationchange"in window ? "orientationchange" : "resize", function(n) {
             a(n)
+        }, !1),
+        $(".btn_toTop")[0].addEventListener("click", function() {
+            window.scrollTo(0, 0)
         }, !1)
     }
       , a = function() {
