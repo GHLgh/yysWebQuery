@@ -26,8 +26,103 @@ var globalMapManager = {
     setup: function(list){
         globalMapManager._initGlobalInfo(list.length);
         globalMapManager._fillGlobalInfo(list);
-        console.log(globalMapManager.info);
-        console.log(globalMapManager.list);
+        //console.log(globalMapManager.info);
+        //console.log(globalMapManager.list);
+    },
+    
+    findSolution: function(list){
+        // the final solution to be returned
+        // an element: total amount of targets, level, spot (or null), target A and amount [, target B and amount, ...]
+        var solutions = [];
+        
+        // temporary variables live inside the function
+        // an element: total amount of targets, level, spot (or null)
+        var temporarySolutions = [];
+        var targetName = [];
+        // setup
+        for(var i = 0; i < list.length; i++){
+            var emptyElement = [0, "", null];
+            temporarySolutions.push(emptyElement);
+            targetName.push(list[i].name);
+        }
+        
+        // start searching the optimal result (having larger total amount of targets) for each target
+        for(var i = 0; i < list.length; i++){
+            var target = list[i];
+            var apparentSpot = globalMapManager.list[target.id];
+        //console.log(apparentSpot);
+            for(var j = 0; j < apparentSpot.length; j++){
+                var chapterEntry = apparentSpot[j];
+                if(Array.isArray(chapterEntry) == false){
+                    globalMapManager._findTotalAmountOfTargets(chapterEntry, null, targetName, temporarySolutions, chapterEntry.name);
+                }
+                else{
+                    for(var k = 1; k < chapterEntry.length; k++){
+                        globalMapManager._findTotalAmountOfTargets(chapterEntry, k, targetName, temporarySolutions, chapterEntry[0]);
+                    }
+                }
+            }
+        }
+        
+        //console.log(temporarySolutions);
+        var noOptimalSolution = false;
+        for(var i = 0; i < temporarySolutions.length; i++){
+            var addedFlag = false;
+            if(temporarySolutions[i][0] == 0)
+                noOptimalSolution = true;
+            else{
+                for(var j = 0; j < solutions.length; j++){
+                    if(solutions[j][0] == temporarySolutions[i][1] && solutions[j][1] == temporarySolutions[i][2])
+                        addedFlag = true;
+                }
+                if(addedFlag == false){
+                    var chapterName = temporarySolutions[i][1];
+                    var spot = temporarySolutions[i][2];
+                    var newSolution = [chapterName, spot];
+                
+                    var entry = globalMapManager.info[chapterName];
+                    if(spot != null)
+                        entry = entry[spot];
+                    for(var j = 0; j < targetName.length; j++){
+                        if(typeof entry[targetName[j]] != 'undefined'){
+                            newSolution.push(targetName[j] + "*" + entry[targetName[j]]);
+                        }
+                    }
+                
+                    solutions.push(newSolution);
+                }
+            }
+        }
+        solutions.push(noOptimalSolution);
+        return solutions;
+    },
+    
+    _findTotalAmountOfTargets: function(chapter, spot, list, solution, chapterName){
+        var involvedFlag = [];
+        var totalAmount = 0;
+        var entry = chapter;
+        if(spot != null)
+            entry = chapter[spot];
+        
+        for(var i = 0; i < list.length; i++){
+            involvedFlag.push(false);
+        }
+        
+        for(var i = 0; i < list.length; i++){
+            //console.log(list[i]);
+            //console.log(entry);
+            if(typeof entry[list[i]] != 'undefined'){
+                //console.log("1");
+                totalAmount += entry[list[i]];
+                involvedFlag[i] = true;
+            }
+        }
+        
+        for(var i = 0; i < involvedFlag.length; i++){
+            if(involvedFlag[i] && solution[i][0] < totalAmount)
+               solution[i] = [totalAmount, chapterName, spot];
+        }
+        //console.log(solution);
     },
 
     _initGlobalInfo: function(listLength){
@@ -44,7 +139,7 @@ var globalMapManager = {
             globalMapManager.info[chFront+i+chBack] = [];
         
             //padding and boss info (TODO: find possible usage)
-            globalMapManager.info[chFront+i+chBack].push(new Object());
+            globalMapManager.info[chFront+i+chBack].push(chFront+i+chBack);
         
             var maximumSpot = 6;
             if(i == 1)
@@ -61,26 +156,25 @@ var globalMapManager = {
     
         // special case
         globalMapManager.info["第5章（普通）"] = [];
-        globalMapManager.info["第5章（普通）"].push(new Object());
+        globalMapManager.info["第5章（普通）"].push("第5章（普通）");
         globalMapManager.info["第5章（普通）"].push(new Object());
     
         // initialize each dungeon
         for(var i = 1; i <= 10; i++){
-            globalMapManager.info[yh+i] = new Object();
+            globalMapManager.info[yh+i] = {name:yh+i};
         }
     
         // initialize each special boss (TODO: initialize without fixed inputs)
-        globalMapManager.info["跳跳哥哥"] = new Object();
-        globalMapManager.info["椒图"] = new Object();
-        globalMapManager.info["骨女"] = new Object();
-        globalMapManager.info["海坊主"] = new Object();
-        globalMapManager.info["鬼使黑"] = new Object();
-        globalMapManager.info["二口女"] = new Object();
-        globalMapManager.info["饿鬼"] = new Object();
-        globalMapManager.info["金币怪物"] = new Object();
+        globalMapManager.info["跳跳哥哥"] = {name:"跳跳哥哥"};
+        globalMapManager.info["椒图"] = {name:"椒图"};
+        globalMapManager.info["骨女"] = {name:"骨女"};
+        globalMapManager.info["海坊主"] = {name:"海坊主"};
+        globalMapManager.info["鬼使黑"] = {name:"鬼使黑"};
+        globalMapManager.info["二口女"] = {name:"二口女"};
+        globalMapManager.info["饿鬼"] = {name:"饿鬼"};
+        globalMapManager.info["金币怪物"] = {name:"金币怪物"};
         //console.log(globalMapInfo);
     },
-
     _fillGlobalInfo: function(list){
         // make the list 1-indexed
         globalMapManager.list.push(null);
@@ -114,7 +208,6 @@ var globalMapManager = {
             }
         }
     },
-     
     _yuhunParser: function(target, apparentList){
         var ch = "yuhun";
         for(var i = 1; i <= 4; i++){
@@ -130,7 +223,6 @@ var globalMapManager = {
             }
         }
     },
-    
     _yqfyParser: function(target, apparentList){
         var ch = "yqfy";
         for(var i = 1; i <= 5; i++){
@@ -142,11 +234,12 @@ var globalMapManager = {
                 if(chapterInfo.length == 1){
                     var amountOfTarget = parseInt((chapterInfo[0].split("*"))[1]);
                     globalMapManager.info["金币怪物"][target.name] = amountOfTarget;
+                    apparentList.push(globalMapManager.info["金币怪物"]);
                 }
                 else{
                     var chapterEntry = globalMapManager.info[chapterInfo[0]];
                     apparentList.push(chapterEntry);
-                    for(var j = 2; j < chapterInfo.length; j+=2){
+                    for(var j = 1; j < chapterInfo.length; j++){
                         var amountOfTarget = parseInt((chapterInfo[j].split("*"))[1]);
                         chapterEntry[target.name] = amountOfTarget;
                     }
@@ -167,7 +260,7 @@ var resultManager = {
         else
             return false;
     },
-    addList: function(nameInput, informationInput){
+    addList: function(idInput, nameInput, informationInput){
         for(var iterator = 0; iterator < resultManager.resultList.length; iterator++){
             if(nameInput == resultManager.resultList[iterator].name){
                 i.dealingRelation($(".OAR-resultError"));
@@ -175,7 +268,7 @@ var resultManager = {
                 return;
             }
         }
-        var informationPair = {name:nameInput, info:informationInput};
+        var informationPair = {id:idInput, name:nameInput, info:informationInput};
         resultManager.resultList.push(informationPair);
         resultManager.updateDocumentation();
     },
@@ -184,11 +277,11 @@ var resultManager = {
         resultManager.updateDocumentation();
     },
     updateDocumentation: function(){
-        for(var i = 0; i < 4; i++){
-            var targetSection = "#list" + i;
-            if(i < resultManager.resultList.length){
-                $(targetSection).text(resultManager.resultList[i].name);
-                $(targetSection).next().html(resultManager.resultList[i].info);
+        for(var iterator = 0; iterator < 4; iterator++){
+            var targetSection = "#list" + iterator;
+            if(iterator < resultManager.resultList.length){
+                $(targetSection).text(resultManager.resultList[iterator].name);
+                $(targetSection).next().html(resultManager.resultList[iterator].info);
                 $(targetSection).show();
                 
                 $(targetSection).next().find("a").click(function() {
@@ -196,13 +289,35 @@ var resultManager = {
                     var id = parseInt(idInString.charAt(idInString.length - 1));
                     resultManager.resultList.splice(id,1);
                     resultManager.updateDocumentation();
-                })
+                });
             }
             else{
                 $(targetSection).next().hide();
                 $(targetSection).hide();
             }
         }
+        //solution: an array that each element contains optimal spot for specific target(s), indicating level info, target name and amount
+        var solution = globalMapManager.findSolution(resultManager.resultList);
+        //console.log(solution);
+        //parse result for HTML display
+        var htmlText = "";
+        htmlText += '<p class="OAR-resultDetails-title"><span>' + "\u63a8\u8350\u51FA\u5904" + "</span></p>";
+        for(var iterator = 0; iterator < solution.length-1; iterator++){
+            var appearance = solution[iterator][0];
+            if(solution[iterator][1] != null)
+                appearance += "妖怪" + solution[iterator][1];
+            appearance += "\uff1a";
+            htmlText += "<dl><dt>" + appearance + "</dt><dd><p>";
+            for(var j = 2; j < solution[iterator].length; j++)
+                htmlText += '<font color="#ca1545">' + solution[iterator][j] + '</font>' + ", ";
+            htmlText += "</p></dd></dl>";
+        }
+        if(solution[solution.length-1]){
+            htmlText += "<dl><dt>" + "某些妖怪只存在于关卡首领或鬼王封印" + "</dt></dl>";
+        }
+        $("#testID").html(htmlText);
+        $("#testID").show();
+        //testID
     },
     bindClick: function(){
         if($(this).next().is(':visible'))
@@ -321,7 +436,7 @@ var i = {
             $(".OAR-resultList").hide(),
             $(".OAR-column-wrap").show(),
             i.isNull($("#testID")),
-            resultManager.addList(t.name, $("#testID").html());
+            resultManager.addList(t.ID, t.name, $("#testID").html());
         },
         isEXist: function(i) {
             if (i && null != i) {
