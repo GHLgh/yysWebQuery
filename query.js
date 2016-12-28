@@ -315,11 +315,15 @@ var resultManager = {
         if(solution[solution.length-1]){
             htmlText += "<dl><dt>" + "某些妖怪只存在于关卡首领或鬼王封印" + "</dt></dl>";
         }
-        $("#testID").html(htmlText);
-        $("#testID").show();
+        $("#solution").html(htmlText);
+        if(resultManager.resultList.length!=0)
+            $("#solution").show();
+        else
+            $("#solution").hide();
         //testID
     },
     bindClick: function(){
+        $(".OAR-resultError").hide();
         if($(this).next().is(':visible'))
             $(this).next().slideUp();
         else{
@@ -457,9 +461,11 @@ var i = {
         },
         bindEvent: function() {
             $("#seek-btn").click(function() {
+                $(".OAR-resultError").hide();
                 i.seek();
             })
             $("#reset-btn").click(function(){
+                $(".OAR-resultError").hide();
                 resultManager.clearList();
             })
             $("#list0").click(resultManager.bindClick);
