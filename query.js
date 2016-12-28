@@ -3,6 +3,8 @@
  * 2. Creating a data set based on the retrieved information and computing the optimal path (?) to complete the task (graph maybe??)
  * 2.1 How to build the graph??
  *
+ * keywords: TODO, DONE, NOTE
+ *
  * CONVENTION: 1-index for simplicity because the data in JSON is 1-index (level info, ID, ...)
  *
  */
@@ -17,70 +19,140 @@
 // step 3: result manager sums those results out and provides n suggestions (n: the number of user inputs), each suggestion
 //         shows the optimal result that contains the according target
 
-var globalMapInfo = null;
-
-function _initGlobalInfo(listLength){
-    globalMapInfo = new Object();
-    globalMapInfo["targetCheckList"] = [];
-    for(var i = 0; i <= listLength; i++)
-        globalMapInfo["targetCheckList"].push(false);
-    var chFront = "第";
-    var chBack = "章（困难）";
-    var yh = "御魂";
-    var yq = "yqfy";
+var globalMapManager = {
+    info: null,
+    list: null,
     
-    // initialize each chapter
-    for(var i = 1; i <= 18; i++){
-        globalMapInfo[chFront+i+chBack] = [];
+    setup: function(list){
+        globalMapManager._initGlobalInfo(list.length);
+        globalMapManager._fillGlobalInfo(list);
+        console.log(globalMapManager.info);
+        console.log(globalMapManager.list);
+    },
+
+    _initGlobalInfo: function(listLength){
+        globalMapManager.info = new Object();
+        globalMapManager.list = [];
+
+        var chFront = "第";
+        var chBack = "章（困难）";
+        var yh = "御魂";
+        var yq = "yqfy";
+    
+        // initialize each chapter
+        for(var i = 1; i <= 18; i++){
+            globalMapManager.info[chFront+i+chBack] = [];
         
-        //padding and boss info (TODO: find possible usage)
-        globalMapInfo[chFront+i+chBack].push(new Object());
+            //padding and boss info (TODO: find possible usage)
+            globalMapManager.info[chFront+i+chBack].push(new Object());
         
-        var maximumSpot = 6;
-        if(i == 1)
-            maximumSpot = 4;
-        else if(i == 2)
-            maximumSpot = 5;
+            var maximumSpot = 6;
+            if(i == 1)
+                maximumSpot = 4;
+            else if(i == 2)
+                maximumSpot = 5;
+            else if(i == 7)
+                maximumSpot = 7;
         
-        for(var j = 1; j <= maximumSpot; j++){
-            globalMapInfo[chFront+i+chBack].push(new Object());
+            for(var j = 1; j <= maximumSpot; j++){
+                globalMapManager.info[chFront+i+chBack].push(new Object());
+            }
         }
-    }
     
-    // initialize each dungeon
-    for(var i = 1; i <= 10; i++){
-        globalMapInfo[yh+i] = new Object();
-    }
+        // special case
+        globalMapManager.info["第5章（普通）"] = [];
+        globalMapManager.info["第5章（普通）"].push(new Object());
+        globalMapManager.info["第5章（普通）"].push(new Object());
     
-    // initialize each special boss (TODO: initialize without fixed inputs)
-    globalMapInfo["跳跳哥哥"] = new Object();
-    globalMapInfo["椒图"] = new Object();
-    globalMapInfo["骨女"] = new Object();
-    globalMapInfo["海坊主"] = new Object();
-    globalMapInfo["鬼使黑"] = new Object();
-    globalMapInfo["二口女"] = new Object();
-    globalMapInfo["饿鬼"] = new Object();
-    globalMapInfo["金币怪物"] = new Object();    
-    console.log(globalMapInfo);
-}
+        // initialize each dungeon
+        for(var i = 1; i <= 10; i++){
+            globalMapManager.info[yh+i] = new Object();
+        }
+    
+        // initialize each special boss (TODO: initialize without fixed inputs)
+        globalMapManager.info["跳跳哥哥"] = new Object();
+        globalMapManager.info["椒图"] = new Object();
+        globalMapManager.info["骨女"] = new Object();
+        globalMapManager.info["海坊主"] = new Object();
+        globalMapManager.info["鬼使黑"] = new Object();
+        globalMapManager.info["二口女"] = new Object();
+        globalMapManager.info["饿鬼"] = new Object();
+        globalMapManager.info["金币怪物"] = new Object();
+        //console.log(globalMapInfo);
+    },
 
-function _fillGlobalInfo(list){
-    // iterate each element in the list
-    for(var i = 0; i < list.length; i++){
-        var target = list[i];
-        /*var s = "";
-            s += "<dl><dt>\u7ae0\u8282\uff1a</dt><dd>" + i.isEXist(target.chapter1) + i.isEXist(target.chapter2),
-            s += i.isEXist(t.chapter3) + i.isEXist(t.chapter4) + i.isEXist(t.chapter5),
-            s += i.isEXist(t.chapter6) + i.isEXist(t.chapter7) + i.isEXist(t.chapter8) + i.isEXist(t.chapter9) + i.isEXist(t.chapter10) + "</dd></dl>",
-            s += "<dl><dt>\u7ebf\u7d22\uff1a</dt><dd>" + i.isEXist(t.clue) + "</dd></dl>",
-            s += "<dl><dt>\u5fa1\u9b42\uff1a</dt><dd>" + i.isEXist(t.yuhun1) + i.isEXist(t.yuhun2),
-            s += i.isEXist(t.yuhun3) + i.isEXist(t.yuhun4) + "</dd></dl>",
-            s += "<dl><dt>\u5996\u6c14\u5c01\u5370\uff1a</dt><dd>" + i.isEXist(t.yqfy1) + i.isEXist(t.yqfy2),
-            s += i.isEXist(t.yqfy3) + i.isEXist(t.yqfy4) + i.isEXist(t.yqfy5),
-            s += "</dd></dl>",
-            s += "<dl><dt>\u9b3c\u738b\u5c01\u5370\uff1a</dt><dd>" + i.isEXist(t.gwfy1) + i.isEXist(t.gwfy2),
-            s += i.isEXist(t.gwfy3) + i.isEXist(t.gwfy4) + i.isEXist(t.gwfy5),
-            s += i.isEXist(t.gwfy6) + "</dd></dl>";*/
+    _fillGlobalInfo: function(list){
+        // make the list 1-indexed
+        globalMapManager.list.push(null);
+        
+        // iterate each element in the list
+        for(var i = 0; i < list.length; i++){
+            var target = list[i];
+            var apparentList = [];
+            globalMapManager._chapterParser(target, apparentList);
+            globalMapManager._yuhunParser(target, apparentList);
+            globalMapManager._yqfyParser(target, apparentList);
+            globalMapManager.list.push(apparentList);
+        }
+    },
+
+    _chapterParser: function(target, apparentList){
+        var ch = "chapter";
+        for(var i = 1; i <= 10; i++){
+            if(target[ch+i] != null){
+                // 1st element: chapter number, 2nd element: chapter name, ...: apparent spot
+                var chapterInfo = target[ch+i].split("——");
+                var chapterEntry = globalMapManager.info[chapterInfo[0]];
+                apparentList.push(chapterEntry);
+                for(var j = 2; j < chapterInfo.length; j++){
+                    var spotIndex = parseInt(chapterInfo[j][2]);
+                    if(!Number.isNaN(spotIndex)){
+                        var amountOfTarget = parseInt((chapterInfo[j].split("*"))[1]);
+                        chapterEntry[spotIndex][target.name] = amountOfTarget;
+                    }
+                }
+            }
+        }
+    },
+     
+    _yuhunParser: function(target, apparentList){
+        var ch = "yuhun";
+        for(var i = 1; i <= 4; i++){
+            if(target[ch+i] != null){
+                // 1st element: chapter number, 2nd element: level of the chapter, 3nd element: apparent spot ...
+                var chapterInfo = target[ch+i].split("，");
+                var chapterEntry = globalMapManager.info[chapterInfo[0]];
+                apparentList.push(chapterEntry);
+                for(var j = 2; j < chapterInfo.length; j+=2){
+                    var amountOfTarget = parseInt((chapterInfo[j].split("*"))[1]);
+                    chapterEntry[target.name] = amountOfTarget;
+                }
+            }
+        }
+    },
+    
+    _yqfyParser: function(target, apparentList){
+        var ch = "yqfy";
+        for(var i = 1; i <= 5; i++){
+            if(target[ch+i] != null){
+                // 1st element: chapter number, 2nd element: level of the chapter, 3nd element: apparent spot ...
+                var chapterInfo = target[ch+i].split("——");
+                
+                // NOTE: special case (this is also where two-digit amount of target appears)
+                if(chapterInfo.length == 1){
+                    var amountOfTarget = parseInt((chapterInfo[0].split("*"))[1]);
+                    globalMapManager.info["金币怪物"][target.name] = amountOfTarget;
+                }
+                else{
+                    var chapterEntry = globalMapManager.info[chapterInfo[0]];
+                    apparentList.push(chapterEntry);
+                    for(var j = 2; j < chapterInfo.length; j+=2){
+                        var amountOfTarget = parseInt((chapterInfo[j].split("*"))[1]);
+                        chapterEntry[target.name] = amountOfTarget;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -157,8 +229,8 @@ var i = {
                 type: "get",
                 dataType: "json",
                 success: function(s) {
-                    if(globalMapInfo == null)
-                        printList(s); // will be the parser
+                    if(globalMapManager.info == null)
+                        globalMapManager.setup(s); // will be the parser
                     for (var e = 0; e < s.length; e++)
                         if (t == s[e].name)
                             return void i.showDetails(s[e]);
@@ -286,11 +358,6 @@ var i = {
             i.bindEvent();
         }
     };
-
-function printList(list){
-    _initGlobalInfo(list.length);
-    _fillGlobalInfo(list);
-}
 
 function startup(){
     GlobalInit();
