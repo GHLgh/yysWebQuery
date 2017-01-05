@@ -1,7 +1,27 @@
 /**
- * 1. Using the code from http://yys.163.com/m/fengyin/ to analyse user input and retrieve information related to the input
- * 2. Creating a data set based on the retrieved information and computing the optimal path (?) to complete the task (graph maybe??)
- * 2.1 How to build the graph??
+ * Adapting the code from http://yys.163.com/m/fengyin/ to analyse user input and retrieve information related to the input
+ * Images are also obtained from url in the orginal code
+ * It is strictly adapted for personal use (better query for the game information), it will be taken down if necessary
+ * 
+ * ===================================================================
+ *
+ * The program will take user input and match the target with the input (what the original code does)
+ * and it can hold up to 4 targets in one query (due to the nature of the quest system in the game).
+ * After each target update, it will suggest the optimal locations (for each target) to finish the task
+ * simply by suggesting the location that can encounter the most amount of targets
+ *
+ * NOTE: The query can perform better if each target is weighted different (different amounts are required for different quests)
+ *       and it can be done by requesting user to enter the amount of target needed besides entering information to identify the target.
+ *       However, it makes the user operations more complicated. Therefore, the functionality is not implemented as a development choice.
+ *
+ *       Although weighted targets may be able to transform the query into a graph 
+ *       and further solve it (multiple quests with multiple possible locations) by solving shortest path.
+ *       The fact that I could not think of a way to transform the query into a graph is another reason 
+ *       why the weighted target functionality is not implemented.
+ *
+ *       The functionality may be considered if a proper transfromation is presented.
+ *
+ * ===================================================================
  *
  * keywords: TODO, DONE, NOTE
  *
@@ -9,27 +29,26 @@
  *
  */
 
-//DONE: add a layer of indirection between search result and input (user have to click on the target to show detail)
-//TODO: implement optimal solution (simple one first)
-// Thoughts: When user enter an input, the application will analyze the json by simply fetching the JSON file (implemented).
-//           So the program can generate a map to the appearence of objects during the analysis
-// step 1: when analyzing, parse the JSON input into a 2-dim array (1st-dim: stage, 2nd-dim: appearence point) that contains
-//         the amount of the target
-// step 2: pass the result to result manager
-// step 3: result manager sums those results out and provides n suggestions (n: the number of user inputs), each suggestion
-//         shows the optimal result that contains the according target
+// global variables as configuration for the program
+var MAX_NUMBER_OF_TARGETS = 4;
 
+/**
+ * An object to manage the map information (the appearance of targets and amount)
+ * It holds two associated arrays (as the map) and functions to manipulate the map
+ */
 var globalMapManager = {
+    // info: an associated array to hold location-to-targets information
+    // list: an associated array to hold target-to-locations information
     info: null,
     list: null,
     
+    // functin to initialize the map given information in a string (inforamtion obtained from data.json)
     setup: function(list){
         globalMapManager._initGlobalInfo(list.length);
         globalMapManager._fillGlobalInfo(list);
-        //console.log(globalMapManager.info);
-        //console.log(globalMapManager.list);
     },
     
+    // function to find the optimal locations given a list of targets
     findSolution: function(list){
         // the final solution to be returned
         // an element: total amount of targets, level, spot (or null), target A and amount [, target B and amount, ...]
@@ -125,6 +144,7 @@ var globalMapManager = {
         //console.log(solution);
     },
 
+    // helper function to initialize info
     _initGlobalInfo: function(listLength){
         globalMapManager.info = new Object();
         globalMapManager.list = [];
@@ -175,6 +195,8 @@ var globalMapManager = {
         globalMapManager.info["金币怪物"] = {name:"金币怪物"};
         //console.log(globalMapInfo);
     },
+    
+    // helper function to initialize list and fill up info and list
     _fillGlobalInfo: function(list){
         // make the list 1-indexed
         globalMapManager.list.push(null);
@@ -241,7 +263,10 @@ var globalMapManager = {
                     apparentList.push(chapterEntry);
                     for(var j = 1; j < chapterInfo.length; j++){
                         var amountOfTarget = parseInt((chapterInfo[j].split("*"))[1]);
-                        chapterEntry[target.name] = amountOfTarget;
+                        if(typeof chapterEntry[target.name] != 'undefined')
+                            chapterEntry[target.name] += amountOfTarget;
+                        else
+                            chapterEntry[target.name] = amountOfTarget;
                     }
                 }
             }
@@ -277,7 +302,7 @@ var resultManager = {
         resultManager.updateDocumentation();
     },
     updateDocumentation: function(){
-        for(var iterator = 0; iterator < 4; iterator++){
+        for(var iterator = 0; iterator < MAX_NUMBER_OF_TARGETS; iterator++){
             var targetSection = "#list" + iterator;
             if(iterator < resultManager.resultList.length){
                 $(targetSection).text(resultManager.resultList[iterator].name);

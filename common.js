@@ -1,3 +1,8 @@
+/**
+ * Adapting the code from http://yys.163.com/m/fengyin/ to auto-fit the program with the size of devices
+ * It is strictly adapted for personal use (better query for the game information), it will be taken down if necessary
+ */ 
+
 var isAppInside = /micromessenger/i.test(navigator.userAgent.toLowerCase()) || /yixin/i.test(navigator.userAgent.toLowerCase())
   , isIos = /iphone os/i.test(navigator.userAgent.toLowerCase()) || /ipad/i.test(navigator.userAgent.toLowerCase())
   , isAndroid = /android/i.test(navigator.userAgent.toLowerCase());

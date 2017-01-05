@@ -1,96 +1,110 @@
-<!-- Code adapted from http://yys.163.com/m/fengyin/ using "inspect" development option in the browser, will take down the code if necessary -->
+<!-- Code adapted from http://yys.163.com/m/fengyin/ using "inspect" development option in the browser-->
+<!-- It is strictly adapted for personal use (better query for the game information), it will be taken down if necessary -->
 
 <!DOCTYPE HTML> 
 <html lang="en"> 
-<head>
-<title>YYS - Quest Query</title>
-<meta charset="utf-8"> 
-<script type="text/javascript" charset="utf-8" src="query.js"></script>
-<script type="text/javascript" charset="utf-8" src="common.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <head>
+        <title>YYS - Quest Query</title>
 
-<link type="text/css" rel="stylesheet" href="index.css">
-<link type="text/css" rel="stylesheet" href="common.css">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimal-ui">
-</head>
+        <!--project information of the orginal code-->
+        <!--项目meta信息，从PM上获取 start-->
+        <meta name="author" content="网易，NetEase Inc.">
+        <meta name="copyright" content="网易，NetEase Inc.">
+        <meta name="pmid" content="19598">
+        <meta name="editor" content="yanwen">
+        <meta name="designer" content="doudou">
+        <meta name="front-end technicist" content="liuweiluo">    
 
-<body onload="startup();">
-    <div id="main">
-        <div id="content">
-            <!--标题-->
- 			<div class="title"></div>
+        <meta charset="utf-8"> 
+        <script type="text/javascript" charset="utf-8" src="query.js"></script>
+        <script type="text/javascript" charset="utf-8" src="common.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+        <link type="text/css" rel="stylesheet" href="index.css">
+        <link type="text/css" rel="stylesheet" href="common.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,minimal-ui">
+    </head>
+
+    <body onload="startup();">
+        <div id="main">
+            <div id="content">
+                <!--标题-->
+ 			    <div class="title"></div>
             
- 			<!--搜索输入框-->
- 			<div class="input-wrap">
- 			    <input type="text" class="input-box" placeholder="输入妖怪、线索、关键词" id="input-box">
- 				<a href="javascript:void(0)" class="seek-btn" id="seek-btn"></a>
-                <a href="javascript:void(0)" class="reset-btn" id="reset-btn"></a>
- 			</div>
- 			<!--悬赏内容-->
- 			<div class="offerAreward">
-                <div id="searchSection">
- 			        <!--悬赏栏目链接-->
-                    <!--悬赏搜索结果列表-->
-                    <!--shows up when there are multiply results fitting the user input-->
-                    <div id="result" class="OAR-resultList" style="display:none">
+ 			    <!--搜索输入框-->
+ 			    <div class="input-wrap">
+                    <input type="text" class="input-box" placeholder="输入妖怪、线索、关键词" id="input-box">
+ 				   <a href="javascript:void(0)" class="seek-btn" id="seek-btn"></a>
+                    <a href="javascript:void(0)" class="reset-btn" id="reset-btn"></a>
+ 			    </div>
+                
+ 			    <!--悬赏内容-->
+ 			    <div class="offerAreward">
+                    <div id="searchSection">
+ 			            <!--悬赏栏目链接-->
+                        <!--悬赏搜索结果列表-->
+                        <!--shows up when there are multiply results fitting the user input-->
+                        <div id="result" class="OAR-resultList" style="display:none">
+                            <ul>
+                                <li>this list will show up if there are multiply results that match user input</li>
+                            </ul>
+                        </div>
+                
+                        <!--悬赏搜索结果有误-->
+                        <div class="OAR-resultError" style="display: none;">
+                            this section will display error message
+                        </div>
+                    
+                        <!-- buffer -->
+                        <div id="testID" class="OAR-resultDetails" style="display:none">
+                            this section is used to holding information to be displayed, serving as a buffer
+                        </div>
+                    </div>
+                
+                    <!--悬赏搜索结果详情-->
+                    <div id="solution" class="OAR-resultDetails" style="display:none">
+                        this section will suggest the location to finsih the quest
+                    </div>
+                
+                    <!--shows up when the accurate result is selected-->
+                    <div id="selectedResult" class="OAR-selectedResultList" style="display">
+                        <p class="OAR-selectedList-title">
+                            <span>已选妖怪</span>
+                        </p>
+                    
                         <ul>
-                            <li>妖刀姬哥哥</li>
-                            <li>妖刀姬哥哥</li>
-                            <li>妖刀姬哥哥</li>
+                            <li id="list0" href="javascript:void(0)">example0</li>
+                            <div id="collapse0" class="collapse OAR-resultDetails" style="display:none">
+                                detail 0
+                            </div>
+                            
+                            <li id="list1" href="javascript:void(0)">example1</li>
+                            <div id="collapse1" class="collapse OAR-resultDetails" style="display:none">
+                                detail 1
+                            </div>
+                                                    
+                            <li id="list2" href="javascript:void(0)">example2</li>
+                            <div id="collapse2" class="collapse OAR-resultDetails" style="display:none">
+                                detail 2
+                            </div>
+                            
+                            <li id="list3" href="javascript:void(0)">example3</li>
+                            <div id="collapse3" class="collapse OAR-resultDetails" style="display:none">
+                                detail 3
+                            </div>
                         </ul>
                     </div>
-                
-                    <!--悬赏搜索结果有误-->
-                    <div class="OAR-resultError" style="display: none;">
-                    </div>
-                    
-                    <!-- buffer -->
-                    <div id="testID" class="OAR-resultDetails" style="display:none">
-                    </div>
-                </div>
-                
-                <!--悬赏搜索结果详情-->
-                <div id="solution" class="OAR-resultDetails" style="display:none">
-                </div>
-                
-                <!--shows up when the accurate result is selected-->
-                <div id="selectedResult" class="OAR-selectedResultList" style="display">
-                    <p class="OAR-selectedList-title">
-                        <span>已选妖怪</span>
-                    </p>
-                    
-                    <ul>
-                        <li id="list0" href="javascript:void(0)">example0</li>
-                        <div id="collapse0" class="collapse OAR-resultDetails" style="display:none">
-                            detail 0
-                        </div>
-                            
-                        <li id="list1" href="javascript:void(0)">example1</li>
-                        <div id="collapse1" class="collapse OAR-resultDetails" style="display:none">
-                            detail 1
-                        </div>
-                                                    
-                        <li id="list2" href="javascript:void(0)">example2</li>
-                        <div id="collapse2" class="collapse OAR-resultDetails" style="display:none">
-                            detail 2
-                        </div>
-                            
-                        <li id="list3" href="javascript:void(0)">example3</li>
-                        <div id="collapse3" class="collapse OAR-resultDetails" style="display:none">
-                            detail 3
-                        </div>
-                    </ul>
                 </div>
             </div>
+            
+            <section class="site_bottom"> 
+                <div class="NIE-copyRight_m">
+                    <!--底部版本信息-->    
+                    <p>仅供个人使用</p>
+                </div>
+                <a class="btn_toTop"><i></i></a>     		  	
+            </section>
         </div>
-        <section class="site_bottom"> 
-    	<div class="NIE-copyRight_m">
-         <!--底部版本信息-->    
-            <p>仅供个人使用</p>
-     	</div>
-        <a class="btn_toTop"><i></i></a>     		  	
- </section>
-    </div>
-</body>
+    </body>
     
 </html>

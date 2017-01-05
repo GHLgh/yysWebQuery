@@ -1,3 +1,9 @@
+/**
+ * Adapting the data from http://yys.163.com/m/fengyin/ to be used as data input
+ * Changed some typo such that the data are consistent
+ * It is strictly adapted for personal use (better query for the game information), it will be taken down if necessary
+ */
+
 [
   {
     "ID": 1,

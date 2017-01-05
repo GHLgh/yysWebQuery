@@ -1,3 +1,8 @@
+/**
+ * Adapting the code from http://yys.163.com/m/fengyin/ to be used as CSS
+ * It is strictly adapted for personal use (better query for the game information), it will be taken down if necessary
+ */ 
+
 @charset "gb2312";html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu {
     margin: 0;
     padding: 0
