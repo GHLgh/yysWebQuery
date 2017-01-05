@@ -277,7 +277,7 @@ var globalMapManager = {
 var resultManager = {
     resultList: [],
     ifFull: function(){
-        if(resultManager.resultList.length >= 4){
+        if(resultManager.resultList.length >= MAX_NUMBER_OF_TARGETS){
             i.dealingRelation($(".OAR-resultError"));
             $(".OAR-resultError").html("\u6700\u591A\u53EA\u63A5\u53D7\u56DB\u4E2A\u8F93\u5165!");
             return true;
